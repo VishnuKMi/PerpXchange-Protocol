@@ -1,0 +1,294 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true, bgcolor = "#2e3e56" ];
+  node [ style = "filled", fillcolor = "#edad56", color = "#edad56", penwidth =3 ];
+  edge [ color = "#fcfcfc", penwidth =2, fontname = "helvetica Neue Ultra Light" ];
+subgraph "clusterPerpXchange" {
+  graph [ label = "PerpXchange", color = "#445773", fontcolor = "#f0f0f0", style = "rounded", bgcolor = "#445773" ];
+  "PerpXchange.<Constructor>" [ label = "<Constructor>", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.depositCollateral" [ label = "depositCollateral", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.withdrawCollateral" [ label = "withdrawCollateral", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.deposit" [ label = "deposit", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.withdraw" [ label = "withdraw", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.mint" [ label = "mint", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.redeem" [ label = "redeem", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.createPosition" [ label = "createPosition", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.closePosition" [ label = "closePosition", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.increaseSize" [ label = "increaseSize", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.decreaseSize" [ label = "decreaseSize", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.increaseCollateral" [ label = "increaseCollateral", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.decreaseCollateral" [ label = "decreaseCollateral", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.liquidate" [ label = "liquidate", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange._borrowingFees" [ label = "_borrowingFees" ];
+  "PerpXchange._updatedLiquidity" [ label = "_updatedLiquidity", color = "#f2c383", fillcolor = "#f2c383" ];
+  "PerpXchange._totalOpenInterest" [ label = "_totalOpenInterest", color = "#f2c383", fillcolor = "#f2c383" ];
+  "PerpXchange._updateOpenInterests" [ label = "_updateOpenInterests" ];
+  "PerpXchange._updateCollateral" [ label = "_updateCollateral" ];
+  "PerpXchange._convertToShares" [ label = "_convertToShares", color = "#f2c383", fillcolor = "#f2c383" ];
+  "PerpXchange._maxLiquidityUtilization" [ label = "_maxLiquidityUtilization" ];
+  "PerpXchange.userPositionByIndex" [ label = "userPositionByIndex", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.getPriceFeed" [ label = "getPriceFeed" ];
+  "PerpXchange._getConversionRate" [ label = "_getConversionRate", color = "#f2c383", fillcolor = "#f2c383" ];
+  "PerpXchange.getAverageOpenPrice" [ label = "getAverageOpenPrice" ];
+  "PerpXchange.getTotalPnl" [ label = "getTotalPnl", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.getTotalLiquidityDeposited" [ label = "getTotalLiquidityDeposited", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.getMaxUtilizationPercentage" [ label = "getMaxUtilizationPercentage", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.getMaxUtilizationPercentageDecimals" [ label = "getMaxUtilizationPercentageDecimals", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange._calculateUserLeverage" [ label = "_calculateUserLeverage" ];
+  "PerpXchange._calculateUserPnl" [ label = "_calculateUserPnl" ];
+  "PerpXchange.maxWithdraw" [ label = "maxWithdraw", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.maxRedeem" [ label = "maxRedeem", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.totalAssets" [ label = "totalAssets" ];
+  "PerpXchange.getLeverage" [ label = "getLeverage", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.getBorrowingRate" [ label = "getBorrowingRate", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.getBorrowingFees" [ label = "getBorrowingFees", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.getUserPnl" [ label = "getUserPnl", color = "#FF9797", fillcolor = "#FF9797" ];
+  "PerpXchange.setMaxLeverage" [ label = "setMaxLeverage", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.setBorrowingRate" [ label = "setBorrowingRate", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.setMaxUtilizationPercentage" [ label = "setMaxUtilizationPercentage", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.setLiquidationDenominator" [ label = "setLiquidationDenominator", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "PerpXchange.AggregatorV3Interface" [ label = "AggregatorV3Interface" ];
+  "PerpXchange.IERC20" [ label = "IERC20" ];
+  "PerpXchange._mint" [ label = "_mint" ];
+  "PerpXchange.PerpX__InvalidAmount" [ label = "PerpX__InvalidAmount" ];
+  "PerpXchange.PerpX__InsufficientCollateral" [ label = "PerpX__InsufficientCollateral" ];
+  "PerpXchange.PerpX__OpenPositionExists" [ label = "PerpX__OpenPositionExists" ];
+  "PerpXchange.PerpX__InvalidSize" [ label = "PerpX__InvalidSize" ];
+  "PerpXchange.PerpX__InvalidPositionId" [ label = "PerpX__InvalidPositionId" ];
+  "PerpXchange.PerpX__NotOwner" [ label = "PerpX__NotOwner" ];
+  "PerpXchange.PerpX__InvalidCollateral" [ label = "PerpX__InvalidCollateral" ];
+  "PerpXchange.PerpX__NoLiquidationNeeded" [ label = "PerpX__NoLiquidationNeeded" ];
+  "PerpXchange.PerpX__NoPositionChosen" [ label = "PerpX__NoPositionChosen" ];
+  "PerpXchange.totalSupply" [ label = "totalSupply" ];
+  "PerpXchange._decimalsOffset" [ label = "_decimalsOffset" ];
+  "PerpXchange.PerpX__InsufficientLiquidity" [ label = "PerpX__InsufficientLiquidity" ];
+  "PerpXchange.balanceOf" [ label = "balanceOf" ];
+}
+
+subgraph "clusterIERC20" {
+  graph [ label = "IERC20", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "IERC20.safeTransferFrom" [ label = "safeTransferFrom" ];
+  "IERC20.safeTransfer" [ label = "safeTransfer" ];
+}
+
+subgraph "clusterReentrancyGuard" {
+  graph [ label = "ReentrancyGuard", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "ReentrancyGuard.deposit" [ label = "deposit" ];
+  "ReentrancyGuard.withdraw" [ label = "withdraw" ];
+  "ReentrancyGuard.mint" [ label = "mint" ];
+  "ReentrancyGuard.redeem" [ label = "redeem" ];
+  "ReentrancyGuard._convertToAssets" [ label = "_convertToAssets" ];
+  "ReentrancyGuard._convertToShares" [ label = "_convertToShares" ];
+}
+
+subgraph "clusterSignedMath" {
+  graph [ label = "SignedMath", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "SignedMath.abs" [ label = "abs" ];
+}
+
+subgraph "clusterassets" {
+  graph [ label = "assets", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "assets.mulDiv" [ label = "mulDiv" ];
+}
+
+subgraph "clusterOracle" {
+  graph [ label = "Oracle", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "Oracle.getBtcInUsdPrice" [ label = "getBtcInUsdPrice" ];
+  "Oracle.convertPriceFromUsdToBtc" [ label = "convertPriceFromUsdToBtc" ];
+}
+
+subgraph "cluster_size" {
+  graph [ label = "_size", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "_size.mulDiv" [ label = "mulDiv" ];
+}
+
+  "PerpXchange.<Constructor>";
+  "PerpXchange.AggregatorV3Interface";
+  "PerpXchange.IERC20";
+  "PerpXchange._mint";
+  "PerpXchange.depositCollateral";
+  "PerpXchange.PerpX__InvalidAmount";
+  "IERC20.safeTransferFrom";
+  "PerpXchange.withdrawCollateral";
+  "PerpXchange.PerpX__InsufficientCollateral";
+  "PerpXchange.PerpX__OpenPositionExists";
+  "IERC20.safeTransfer";
+  "PerpXchange.deposit";
+  "ReentrancyGuard.deposit";
+  "PerpXchange.withdraw";
+  "PerpXchange._maxLiquidityUtilization";
+  "ReentrancyGuard.withdraw";
+  "PerpXchange.mint";
+  "ReentrancyGuard.mint";
+  "PerpXchange.redeem";
+  "ReentrancyGuard.redeem";
+  "PerpXchange.createPosition";
+  "PerpXchange._calculateUserLeverage";
+  "PerpXchange.PerpX__InvalidSize";
+  "PerpXchange.getPriceFeed";
+  "PerpXchange._updateOpenInterests";
+  "PerpXchange.closePosition";
+  "PerpXchange.PerpX__InvalidPositionId";
+  "PerpXchange.PerpX__NotOwner";
+  "PerpXchange._borrowingFees";
+  "PerpXchange._calculateUserPnl";
+  "PerpXchange.getAverageOpenPrice";
+  "SignedMath.abs";
+  "PerpXchange.increaseSize";
+  "PerpXchange._updateCollateral";
+  "PerpXchange.decreaseSize";
+  "PerpXchange.increaseCollateral";
+  "PerpXchange.PerpX__InvalidCollateral";
+  "PerpXchange.decreaseCollateral";
+  "PerpXchange.liquidate";
+  "PerpXchange.PerpX__NoLiquidationNeeded";
+  "PerpXchange._updatedLiquidity";
+  "PerpXchange.totalAssets";
+  "PerpXchange.PerpX__NoPositionChosen";
+  "PerpXchange._convertToShares";
+  "PerpXchange.totalSupply";
+  "assets.mulDiv";
+  "PerpXchange._decimalsOffset";
+  "PerpXchange.PerpX__InsufficientLiquidity";
+  "Oracle.getBtcInUsdPrice";
+  "PerpXchange._getConversionRate";
+  "Oracle.convertPriceFromUsdToBtc";
+  "_size.mulDiv";
+  "PerpXchange.maxWithdraw";
+  "ReentrancyGuard._convertToAssets";
+  "PerpXchange.balanceOf";
+  "PerpXchange.maxRedeem";
+  "ReentrancyGuard._convertToShares";
+  "PerpXchange.getLeverage";
+  "PerpXchange.getBorrowingFees";
+  "PerpXchange.getUserPnl";
+  "PerpXchange.<Constructor>" -> "PerpXchange.AggregatorV3Interface" [ color = "#1bc6a6" ];
+  "PerpXchange.<Constructor>" -> "PerpXchange.IERC20" [ color = "#1bc6a6" ];
+  "PerpXchange.<Constructor>" -> "PerpXchange._mint" [ color = "#1bc6a6" ];
+  "PerpXchange.depositCollateral" -> "PerpXchange.PerpX__InvalidAmount" [ color = "#1bc6a6" ];
+  "PerpXchange.depositCollateral" -> "IERC20.safeTransferFrom" [ color = "white" ];
+  "PerpXchange.withdrawCollateral" -> "PerpXchange.PerpX__InsufficientCollateral" [ color = "#1bc6a6" ];
+  "PerpXchange.withdrawCollateral" -> "PerpXchange.PerpX__OpenPositionExists" [ color = "#1bc6a6" ];
+  "PerpXchange.withdrawCollateral" -> "IERC20.safeTransfer" [ color = "white" ];
+  "PerpXchange.deposit" -> "ReentrancyGuard.deposit" [ color = "white" ];
+  "PerpXchange.withdraw" -> "PerpXchange._maxLiquidityUtilization" [ color = "#1bc6a6" ];
+  "PerpXchange.withdraw" -> "ReentrancyGuard.withdraw" [ color = "white" ];
+  "PerpXchange.mint" -> "ReentrancyGuard.mint" [ color = "white" ];
+  "PerpXchange.redeem" -> "ReentrancyGuard.redeem" [ color = "white" ];
+  "PerpXchange.createPosition" -> "PerpXchange._calculateUserLeverage" [ color = "#1bc6a6" ];
+  "PerpXchange.createPosition" -> "PerpXchange.PerpX__InvalidSize" [ color = "#1bc6a6" ];
+  "PerpXchange.createPosition" -> "PerpXchange.PerpX__OpenPositionExists" [ color = "#1bc6a6" ];
+  "PerpXchange.createPosition" -> "PerpXchange.getPriceFeed" [ color = "#1bc6a6" ];
+  "PerpXchange.createPosition" -> "PerpXchange._maxLiquidityUtilization" [ color = "#1bc6a6" ];
+  "PerpXchange.createPosition" -> "PerpXchange._updateOpenInterests" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "PerpXchange.PerpX__InvalidPositionId" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "PerpXchange.PerpX__NotOwner" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "PerpXchange._borrowingFees" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "PerpXchange._calculateUserPnl" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "PerpXchange._updateOpenInterests" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "PerpXchange.getAverageOpenPrice" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "IERC20.safeTransfer" [ color = "white" ];
+  "PerpXchange.closePosition" -> "SignedMath.abs" [ color = "white" ];
+  "PerpXchange.closePosition" -> "PerpXchange._updateOpenInterests" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "PerpXchange.getAverageOpenPrice" [ color = "#1bc6a6" ];
+  "PerpXchange.closePosition" -> "IERC20.safeTransfer" [ color = "white" ];
+  "PerpXchange.increaseSize" -> "PerpXchange.PerpX__NotOwner" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseSize" -> "PerpXchange.getPriceFeed" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseSize" -> "PerpXchange._borrowingFees" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseSize" -> "PerpXchange._updateCollateral" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseSize" -> "PerpXchange._calculateUserLeverage" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseSize" -> "PerpXchange.PerpX__InvalidSize" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseSize" -> "PerpXchange._maxLiquidityUtilization" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseSize" -> "PerpXchange._updateOpenInterests" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange.PerpX__NotOwner" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange.PerpX__InvalidSize" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange.getPriceFeed" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange.closePosition" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange._updateOpenInterests" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange.getAverageOpenPrice" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange._borrowingFees" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange._calculateUserPnl" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange._updateCollateral" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange._updateCollateral" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "IERC20.safeTransfer" [ color = "white" ];
+  "PerpXchange.decreaseSize" -> "SignedMath.abs" [ color = "white" ];
+  "PerpXchange.decreaseSize" -> "PerpXchange._updateCollateral" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseSize" -> "IERC20.safeTransfer" [ color = "white" ];
+  "PerpXchange.increaseCollateral" -> "PerpXchange.PerpX__InvalidCollateral" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseCollateral" -> "PerpXchange.PerpX__NotOwner" [ color = "#1bc6a6" ];
+  "PerpXchange.increaseCollateral" -> "IERC20.safeTransferFrom" [ color = "white" ];
+  "PerpXchange.decreaseCollateral" -> "PerpXchange.PerpX__InsufficientCollateral" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseCollateral" -> "PerpXchange.PerpX__InvalidAmount" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseCollateral" -> "PerpXchange._calculateUserLeverage" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseCollateral" -> "PerpXchange.PerpX__InvalidAmount" [ color = "#1bc6a6" ];
+  "PerpXchange.decreaseCollateral" -> "IERC20.safeTransfer" [ color = "white" ];
+  "PerpXchange.liquidate" -> "PerpXchange._calculateUserLeverage" [ color = "#1bc6a6" ];
+  "PerpXchange.liquidate" -> "PerpXchange._borrowingFees" [ color = "#1bc6a6" ];
+  "PerpXchange.liquidate" -> "PerpXchange.getPriceFeed" [ color = "#1bc6a6" ];
+  "PerpXchange.liquidate" -> "PerpXchange.PerpX__NoLiquidationNeeded" [ color = "#1bc6a6" ];
+  "PerpXchange.liquidate" -> "PerpXchange._updateCollateral" [ color = "#1bc6a6" ];
+  "PerpXchange.liquidate" -> "PerpXchange._updateOpenInterests" [ color = "#1bc6a6" ];
+  "PerpXchange.liquidate" -> "PerpXchange.IERC20" [ color = "#1bc6a6" ];
+  "PerpXchange._updatedLiquidity" -> "PerpXchange.totalAssets" [ color = "#1bc6a6" ];
+  "PerpXchange._updatedLiquidity" -> "SignedMath.abs" [ color = "white" ];
+  "PerpXchange._updateOpenInterests" -> "PerpXchange.PerpX__NoPositionChosen" [ color = "#1bc6a6" ];
+  "PerpXchange._convertToShares" -> "PerpXchange.totalSupply" [ color = "#1bc6a6" ];
+  "PerpXchange._convertToShares" -> "assets.mulDiv" [ color = "white" ];
+  "PerpXchange._convertToShares" -> "PerpXchange.totalSupply" [ color = "#1bc6a6" ];
+  "PerpXchange._convertToShares" -> "PerpXchange._decimalsOffset" [ color = "#1bc6a6" ];
+  "PerpXchange._convertToShares" -> "PerpXchange.totalAssets" [ color = "#1bc6a6" ];
+  "PerpXchange._maxLiquidityUtilization" -> "PerpXchange.getPriceFeed" [ color = "#1bc6a6" ];
+  "PerpXchange._maxLiquidityUtilization" -> "PerpXchange._updatedLiquidity" [ color = "#1bc6a6" ];
+  "PerpXchange._maxLiquidityUtilization" -> "PerpXchange.PerpX__InsufficientLiquidity" [ color = "#1bc6a6" ];
+  "PerpXchange.getPriceFeed" -> "Oracle.getBtcInUsdPrice" [ color = "white" ];
+  "PerpXchange._getConversionRate" -> "Oracle.convertPriceFromUsdToBtc" [ color = "white" ];
+  "PerpXchange.getAverageOpenPrice" -> "PerpXchange.PerpX__InvalidPositionId" [ color = "#1bc6a6" ];
+  "PerpXchange._calculateUserLeverage" -> "PerpXchange.getPriceFeed" [ color = "#1bc6a6" ];
+  "PerpXchange._calculateUserLeverage" -> "_size.mulDiv" [ color = "white" ];
+  "PerpXchange._calculateUserLeverage" -> "PerpXchange._calculateUserPnl" [ color = "#1bc6a6" ];
+  "PerpXchange._calculateUserLeverage" -> "_size.mulDiv" [ color = "white" ];
+  "PerpXchange._calculateUserLeverage" -> "_size.mulDiv" [ color = "white" ];
+  "PerpXchange._calculateUserLeverage" -> "SignedMath.abs" [ color = "white" ];
+  "PerpXchange._calculateUserLeverage" -> "_size.mulDiv" [ color = "white" ];
+  "PerpXchange._calculateUserPnl" -> "PerpXchange.getPriceFeed" [ color = "#1bc6a6" ];
+  "PerpXchange._calculateUserPnl" -> "PerpXchange.getAverageOpenPrice" [ color = "#1bc6a6" ];
+  "PerpXchange._calculateUserPnl" -> "PerpXchange.PerpX__NoPositionChosen" [ color = "#1bc6a6" ];
+  "PerpXchange.maxWithdraw" -> "ReentrancyGuard._convertToAssets" [ color = "white" ];
+  "PerpXchange.maxWithdraw" -> "PerpXchange.balanceOf" [ color = "#1bc6a6" ];
+  "PerpXchange.maxWithdraw" -> "PerpXchange._updatedLiquidity" [ color = "#1bc6a6" ];
+  "PerpXchange.maxRedeem" -> "ReentrancyGuard._convertToAssets" [ color = "white" ];
+  "PerpXchange.maxRedeem" -> "PerpXchange.balanceOf" [ color = "#1bc6a6" ];
+  "PerpXchange.maxRedeem" -> "PerpXchange._updatedLiquidity" [ color = "#1bc6a6" ];
+  "PerpXchange.maxRedeem" -> "ReentrancyGuard._convertToShares" [ color = "white" ];
+  "PerpXchange.maxRedeem" -> "ReentrancyGuard._convertToShares" [ color = "white" ];
+  "PerpXchange.totalAssets" -> "SignedMath.abs" [ color = "white" ];
+  "PerpXchange.getLeverage" -> "PerpXchange._calculateUserLeverage" [ color = "#1bc6a6" ];
+  "PerpXchange.getBorrowingFees" -> "PerpXchange._borrowingFees" [ color = "#1bc6a6" ];
+  "PerpXchange.getUserPnl" -> "PerpXchange._calculateUserPnl" [ color = "#1bc6a6" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="#445773">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="#e8726d">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="#1bc6a6"]
+key:i2:e -> key2:i2:w [color="white"]
+}
+}
