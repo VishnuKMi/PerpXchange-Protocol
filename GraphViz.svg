@@ -1,0 +1,1122 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1497pt" height="2167pt" viewBox="0.00 0.00 1496.95 2166.86">
+<g id="graph0" class="graph" transform="translate(-604.6101522574336,3325.4933667632577) scale(1.5157165665103998)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-2162.86 1492.95,-2162.86 1492.95,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterPerpXchange">
+
+<path fill="#445773" stroke="#445773" d="M20,-640.86C20,-640.86 1460.92,-640.86 1460.92,-640.86 1466.92,-640.86 1472.92,-646.86 1472.92,-652.86 1472.92,-652.86 1472.92,-2001.86 1472.92,-2001.86 1472.92,-2007.86 1466.92,-2013.86 1460.92,-2013.86 1460.92,-2013.86 20,-2013.86 20,-2013.86 14,-2013.86 8,-2007.86 8,-2001.86 8,-2001.86 8,-652.86 8,-652.86 8,-646.86 14,-640.86 20,-640.86" style=""/>
+<text text-anchor="middle" x="740.46" y="-1997.26" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">PerpXchange</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterIERC20">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M722.38,-416.86C722.38,-416.86 874.81,-416.86 874.81,-416.86 880.81,-416.86 886.81,-422.86 886.81,-428.86 886.81,-428.86 886.81,-535.86 886.81,-535.86 886.81,-541.86 880.81,-547.86 874.81,-547.86 874.81,-547.86 722.38,-547.86 722.38,-547.86 716.38,-547.86 710.38,-541.86 710.38,-535.86 710.38,-535.86 710.38,-428.86 710.38,-428.86 710.38,-422.86 716.38,-416.86 722.38,-416.86" style=""/>
+<text text-anchor="middle" x="798.59" y="-531.26" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterReentrancyGuard">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M721.3,-61.86C721.3,-61.86 875.89,-61.86 875.89,-61.86 881.89,-61.86 887.89,-67.86 887.89,-73.86 887.89,-73.86 887.89,-396.86 887.89,-396.86 887.89,-402.86 881.89,-408.86 875.89,-408.86 875.89,-408.86 721.3,-408.86 721.3,-408.86 715.3,-408.86 709.3,-402.86 709.3,-396.86 709.3,-396.86 709.3,-73.86 709.3,-73.86 709.3,-67.86 715.3,-61.86 721.3,-61.86" style=""/>
+<text text-anchor="middle" x="798.59" y="-392.26" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ReentrancyGuard</text>
+</g>
+<g id="clust4" class="cluster" data-name="clusterSignedMath">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1322.49,-555.86C1322.49,-555.86 1382.49,-555.86 1382.49,-555.86 1388.49,-555.86 1394.49,-561.86 1394.49,-567.86 1394.49,-567.86 1394.49,-620.86 1394.49,-620.86 1394.49,-626.86 1388.49,-632.86 1382.49,-632.86 1382.49,-632.86 1322.49,-632.86 1322.49,-632.86 1316.49,-632.86 1310.49,-626.86 1310.49,-620.86 1310.49,-620.86 1310.49,-567.86 1310.49,-567.86 1310.49,-561.86 1316.49,-555.86 1322.49,-555.86" style=""/>
+<text text-anchor="middle" x="1352.49" y="-616.26" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">SignedMath</text>
+</g>
+<g id="clust5" class="cluster" data-name="clusterassets">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1041.68,-2021.86C1041.68,-2021.86 1114.77,-2021.86 1114.77,-2021.86 1120.77,-2021.86 1126.77,-2027.86 1126.77,-2033.86 1126.77,-2033.86 1126.77,-2086.86 1126.77,-2086.86 1126.77,-2092.86 1120.77,-2098.86 1114.77,-2098.86 1114.77,-2098.86 1041.68,-2098.86 1041.68,-2098.86 1035.68,-2098.86 1029.68,-2092.86 1029.68,-2086.86 1029.68,-2086.86 1029.68,-2033.86 1029.68,-2033.86 1029.68,-2027.86 1035.68,-2021.86 1041.68,-2021.86" style=""/>
+<text text-anchor="middle" x="1078.22" y="-2082.26" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">assets</text>
+</g>
+<g id="clust6" class="cluster" data-name="clusterOracle">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M1236.03,-239.86C1236.03,-239.86 1468.95,-239.86 1468.95,-239.86 1474.95,-239.86 1480.95,-245.86 1480.95,-251.86 1480.95,-251.86 1480.95,-358.86 1480.95,-358.86 1480.95,-364.86 1474.95,-370.86 1468.95,-370.86 1468.95,-370.86 1236.03,-370.86 1236.03,-370.86 1230.03,-370.86 1224.03,-364.86 1224.03,-358.86 1224.03,-358.86 1224.03,-251.86 1224.03,-251.86 1224.03,-245.86 1230.03,-239.86 1236.03,-239.86" style=""/>
+<text text-anchor="middle" x="1352.49" y="-354.26" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Oracle</text>
+</g>
+<g id="clust7" class="cluster" data-name="cluster_size">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M762.05,-555.86C762.05,-555.86 835.14,-555.86 835.14,-555.86 841.14,-555.86 847.14,-561.86 847.14,-567.86 847.14,-567.86 847.14,-620.86 847.14,-620.86 847.14,-626.86 841.14,-632.86 835.14,-632.86 835.14,-632.86 762.05,-632.86 762.05,-632.86 756.05,-632.86 750.05,-626.86 750.05,-620.86 750.05,-620.86 750.05,-567.86 750.05,-567.86 750.05,-561.86 756.05,-555.86 762.05,-555.86" style=""/>
+<text text-anchor="middle" x="798.59" y="-616.26" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">_size</text>
+</g>
+<g id="clust8" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="103.66,-2021.86 103.66,-2150.86 540.05,-2150.86 540.05,-2021.86 103.66,-2021.86" style=""/>
+<text text-anchor="middle" x="321.85" y="-2134.26" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- PerpXchange.&lt;Constructor&gt; -->
+<g id="node1" class="node" pointer-events="visible" data-name="PerpXchange.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1962.86" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1958.66" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- PerpXchange.AggregatorV3Interface -->
+<g id="node43" class="node" pointer-events="visible" data-name="PerpXchange.AggregatorV3Interface">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-1908.86" rx="101.24" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1904.66" font-family="Times,serif" font-size="14.00" style="">AggregatorV3Interface</text>
+</g>
+<!-- PerpXchange.&lt;Constructor&gt;&#45;&gt;PerpXchange.AggregatorV3Interface -->
+<g id="edge1" class="edge" data-name="PerpXchange.&lt;Constructor&gt;-&gt;PerpXchange.AggregatorV3Interface">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M236.39,-1953.14C286.04,-1944.93 357.95,-1933.03 414.74,-1923.63" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="415.06,-1927.13 424.36,-1922.04 413.92,-1920.22 415.06,-1927.13" style=""/>
+</g>
+<!-- PerpXchange.IERC20 -->
+<g id="node44" class="node" pointer-events="visible" data-name="PerpXchange.IERC20">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-1854.86" rx="42.88" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1850.66" font-family="Times,serif" font-size="14.00" style="">IERC20</text>
+</g>
+<!-- PerpXchange.&lt;Constructor&gt;&#45;&gt;PerpXchange.IERC20 -->
+<g id="edge2" class="edge" data-name="PerpXchange.&lt;Constructor&gt;-&gt;PerpXchange.IERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M245.32,-1963.28C275.53,-1960.61 310.32,-1953.37 337.33,-1935.86 361.53,-1920.17 349.41,-1897.98 373.33,-1881.86 395.15,-1867.14 423.34,-1860.17 447.95,-1856.97" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="448.24,-1860.46 457.81,-1855.9 447.49,-1853.5 448.24,-1860.46" style=""/>
+</g>
+<!-- PerpXchange._mint -->
+<g id="node45" class="node" pointer-events="visible" data-name="PerpXchange._mint">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-1962.86" rx="33.64" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1958.66" font-family="Times,serif" font-size="14.00" style="">_mint</text>
+</g>
+<!-- PerpXchange.&lt;Constructor&gt;&#45;&gt;PerpXchange._mint -->
+<g id="edge3" class="edge" data-name="PerpXchange.&lt;Constructor&gt;-&gt;PerpXchange._mint">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M245.69,-1962.86C309.03,-1962.86 401.77,-1962.86 457.2,-1962.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="457.09,-1966.36 467.09,-1962.86 457.09,-1959.36 457.09,-1966.36" style=""/>
+</g>
+<!-- PerpXchange.depositCollateral -->
+<g id="node2" class="node" pointer-events="visible" data-name="PerpXchange.depositCollateral">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-1530.86" rx="77.02" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1526.66" font-family="Times,serif" font-size="14.00" style="">depositCollateral</text>
+</g>
+<!-- PerpXchange.PerpX__InvalidAmount -->
+<g id="node46" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__InvalidAmount">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-798.86" rx="104.25" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-794.66" font-family="Times,serif" font-size="14.00" style="">PerpX__InvalidAmount</text>
+</g>
+<!-- PerpXchange.depositCollateral&#45;&gt;PerpXchange.PerpX__InvalidAmount -->
+<g id="edge4" class="edge" data-name="PerpXchange.depositCollateral-&gt;PerpXchange.PerpX__InvalidAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M250.85,-1537.23C282,-1535.75 316,-1527.78 337.33,-1503.86 437.73,-1391.24 274.97,-940.27 373.33,-825.86 378.89,-819.38 385.57,-814.21 392.91,-810.1" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="394.22,-813.36 401.78,-805.94 391.24,-807.02 394.22,-813.36" style=""/>
+</g>
+<!-- IERC20.safeTransferFrom -->
+<g id="node59" class="node" pointer-events="visible" data-name="IERC20.safeTransferFrom">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-442.86" rx="80.43" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-438.66" font-family="Times,serif" font-size="14.00" style="">safeTransferFrom</text>
+</g>
+<!-- PerpXchange.depositCollateral&#45;&gt;IERC20.safeTransferFrom -->
+<g id="edge5" class="edge" data-name="PerpXchange.depositCollateral-&gt;IERC20.safeTransferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M250.24,-1537.45C281.65,-1536.1 316.03,-1528.18 337.33,-1503.86 413.26,-1417.1 292.7,-549.26 373.33,-466.86 418.36,-420.82 599.3,-426.42 709.82,-434.63" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="709.35,-438.1 719.59,-435.38 709.89,-431.12 709.35,-438.1" style=""/>
+</g>
+<!-- PerpXchange.withdrawCollateral -->
+<g id="node3" class="node" pointer-events="visible" data-name="PerpXchange.withdrawCollateral">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-1638.86" rx="85.67" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1634.66" font-family="Times,serif" font-size="14.00" style="">withdrawCollateral</text>
+</g>
+<!-- PerpXchange.PerpX__InsufficientCollateral -->
+<g id="node47" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__InsufficientCollateral">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-852.86" rx="127.91" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-848.66" font-family="Times,serif" font-size="14.00" style="">PerpX__InsufficientCollateral</text>
+</g>
+<!-- PerpXchange.withdrawCollateral&#45;&gt;PerpXchange.PerpX__InsufficientCollateral -->
+<g id="edge6" class="edge" data-name="PerpXchange.withdrawCollateral-&gt;PerpXchange.PerpX__InsufficientCollateral">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M259.57,-1644.69C288.21,-1642.19 318,-1633.61 337.33,-1611.86 391.4,-1550.97 320.36,-941.71 373.33,-879.86 376.53,-876.12 380.1,-872.81 383.96,-869.89" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="385.64,-872.97 392.22,-864.67 381.9,-867.06 385.64,-872.97" style=""/>
+</g>
+<!-- PerpXchange.PerpX__OpenPositionExists -->
+<g id="node48" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__OpenPositionExists">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-906.86" rx="121.62" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-902.66" font-family="Times,serif" font-size="14.00" style="">PerpX__OpenPositionExists</text>
+</g>
+<!-- PerpXchange.withdrawCollateral&#45;&gt;PerpXchange.PerpX__OpenPositionExists -->
+<g id="edge7" class="edge" data-name="PerpXchange.withdrawCollateral-&gt;PerpXchange.PerpX__OpenPositionExists">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M259.93,-1644.61C288.44,-1642.06 318.05,-1633.47 337.33,-1611.86 437.73,-1499.24 274.97,-1048.27 373.33,-933.86 377.02,-929.56 381.21,-925.83 385.75,-922.61" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="387.52,-925.63 394.34,-917.52 383.96,-919.61 387.52,-925.63" style=""/>
+</g>
+<!-- IERC20.safeTransfer -->
+<g id="node60" class="node" pointer-events="visible" data-name="IERC20.safeTransfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-496.86" rx="59.08" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-492.66" font-family="Times,serif" font-size="14.00" style="">safeTransfer</text>
+</g>
+<!-- PerpXchange.withdrawCollateral&#45;&gt;IERC20.safeTransfer -->
+<g id="edge8" class="edge" data-name="PerpXchange.withdrawCollateral-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M259.67,-1644.78C288.32,-1642.29 318.1,-1633.7 337.33,-1611.86 402.79,-1537.49 321.65,-805.39 373.33,-720.86 452.94,-590.61 636.01,-532.05 733.6,-509.29" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="734.27,-512.72 743.26,-507.1 732.73,-505.89 734.27,-512.72" style=""/>
+</g>
+<!-- PerpXchange.deposit -->
+<g id="node4" class="node" pointer-events="visible" data-name="PerpXchange.deposit">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1422.86" rx="38.86" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1418.66" font-family="Times,serif" font-size="14.00" style="">deposit</text>
+</g>
+<!-- ReentrancyGuard.deposit -->
+<g id="node61" class="node" pointer-events="visible" data-name="ReentrancyGuard.deposit">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-195.86" rx="38.86" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-191.66" font-family="Times,serif" font-size="14.00" style="">deposit</text>
+</g>
+<!-- PerpXchange.deposit&#45;&gt;ReentrancyGuard.deposit -->
+<g id="edge9" class="edge" data-name="PerpXchange.deposit-&gt;ReentrancyGuard.deposit">
+
+<path fill="none" stroke="white" stroke-width="2" d="M214.99,-1428.53C252.04,-1431.81 307.5,-1429.91 337.33,-1395.86 411.9,-1310.72 311,-472.34 373.33,-377.86 444.58,-269.83 528.2,-324.28 636.77,-253.86 654.48,-242.37 653.86,-232.27 672.77,-222.86 695.52,-211.53 722.93,-204.93 746.26,-201.1" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="746.72,-204.57 756.1,-199.64 745.7,-197.64 746.72,-204.57" style=""/>
+</g>
+<!-- PerpXchange.withdraw -->
+<g id="node5" class="node" pointer-events="visible" data-name="PerpXchange.withdraw">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1476.86" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1472.66" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- PerpXchange._maxLiquidityUtilization -->
+<g id="node21" class="node" pointer-events="visible" data-name="PerpXchange._maxLiquidityUtilization">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-1122.86" rx="109.98" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1118.66" font-family="Times,serif" font-size="14.00" style="">_maxLiquidityUtilization</text>
+</g>
+<!-- PerpXchange.withdraw&#45;&gt;PerpXchange._maxLiquidityUtilization -->
+<g id="edge10" class="edge" data-name="PerpXchange.withdraw-&gt;PerpXchange._maxLiquidityUtilization">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M223.23,-1482.54C259.39,-1484.3 308.49,-1480.05 337.33,-1449.86 428.55,-1354.33 285.63,-1253.63 373.33,-1154.86 379.67,-1147.71 387.33,-1142.03 395.71,-1137.53" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="397.16,-1140.72 404.79,-1133.36 394.24,-1134.35 397.16,-1140.72" style=""/>
+</g>
+<!-- ReentrancyGuard.withdraw -->
+<g id="node62" class="node" pointer-events="visible" data-name="ReentrancyGuard.withdraw">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-249.86" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-245.66" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- PerpXchange.withdraw&#45;&gt;ReentrancyGuard.withdraw -->
+<g id="edge11" class="edge" data-name="PerpXchange.withdraw-&gt;ReentrancyGuard.withdraw">
+
+<path fill="none" stroke="white" stroke-width="2" d="M222.83,-1483.12C259.5,-1485.4 309.55,-1481.58 337.33,-1449.86 412.4,-1364.12 306.2,-516.95 373.33,-424.86 446.64,-324.28 538.45,-406.18 636.77,-329.86 659.26,-312.4 649.16,-292.78 672.77,-276.86 691.57,-264.17 715.29,-257.31 736.99,-253.64" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="737.43,-257.12 746.83,-252.23 736.44,-250.19 737.43,-257.12" style=""/>
+</g>
+<!-- PerpXchange.mint -->
+<g id="node6" class="node" pointer-events="visible" data-name="PerpXchange.mint">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1368.86" rx="28.99" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1364.66" font-family="Times,serif" font-size="14.00" style="">mint</text>
+</g>
+<!-- ReentrancyGuard.mint -->
+<g id="node63" class="node" pointer-events="visible" data-name="ReentrancyGuard.mint">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-141.86" rx="28.99" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-137.66" font-family="Times,serif" font-size="14.00" style="">mint</text>
+</g>
+<!-- PerpXchange.mint&#45;&gt;ReentrancyGuard.mint -->
+<g id="edge12" class="edge" data-name="PerpXchange.mint-&gt;ReentrancyGuard.mint">
+
+<path fill="none" stroke="white" stroke-width="2" d="M206.09,-1373.62C242.59,-1377.92 305.05,-1378.8 337.33,-1341.86 416.91,-1250.78 298.82,-349.14 373.33,-253.86 458.54,-144.88 538.55,-202.39 672.77,-168.86 700.85,-161.84 732.75,-154.96 757.27,-149.9" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="757.65,-153.4 766.74,-147.97 756.25,-146.54 757.65,-153.4" style=""/>
+</g>
+<!-- PerpXchange.redeem -->
+<g id="node7" class="node" pointer-events="visible" data-name="PerpXchange.redeem">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1206.86" rx="39.4" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1202.66" font-family="Times,serif" font-size="14.00" style="">redeem</text>
+</g>
+<!-- ReentrancyGuard.redeem -->
+<g id="node64" class="node" pointer-events="visible" data-name="ReentrancyGuard.redeem">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-87.86" rx="39.4" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-83.66" font-family="Times,serif" font-size="14.00" style="">redeem</text>
+</g>
+<!-- PerpXchange.redeem&#45;&gt;ReentrancyGuard.redeem -->
+<g id="edge13" class="edge" data-name="PerpXchange.redeem-&gt;ReentrancyGuard.redeem">
+
+<path fill="none" stroke="white" stroke-width="2" d="M215.66,-1212.57C252.7,-1215.76 307.65,-1213.66 337.33,-1179.86 407.31,-1100.14 311.11,-311.77 373.33,-225.86 459.71,-106.57 651.84,-88.35 744.96,-86.87" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="744.96,-90.37 754.93,-86.79 744.9,-83.37 744.96,-90.37" style=""/>
+</g>
+<!-- PerpXchange.createPosition -->
+<g id="node8" class="node" pointer-events="visible" data-name="PerpXchange.createPosition">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-1746.86" rx="65.99" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1742.66" font-family="Times,serif" font-size="14.00" style="">createPosition</text>
+</g>
+<!-- PerpXchange._updateOpenInterests -->
+<g id="node18" class="node" pointer-events="visible" data-name="PerpXchange._updateOpenInterests">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-1515.86" rx="95.48" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-1511.66" font-family="Times,serif" font-size="14.00" style="">_updateOpenInterests</text>
+</g>
+<!-- PerpXchange.createPosition&#45;&gt;PerpXchange._updateOpenInterests -->
+<g id="edge19" class="edge" data-name="PerpXchange.createPosition-&gt;PerpXchange._updateOpenInterests">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M240.1,-1753.29C273.78,-1753.09 313.27,-1746.24 337.33,-1719.86 408.8,-1641.48 295.54,-1315.98 373.33,-1243.86 394.79,-1223.96 614.28,-1225.11 636.77,-1243.86 705.12,-1300.86 622.12,-1367.66 672.77,-1440.86 688.9,-1464.17 714.85,-1481.45 738.93,-1493.51" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="737.27,-1496.6 747.81,-1497.72 740.27,-1490.28 737.27,-1496.6" style=""/>
+</g>
+<!-- PerpXchange.createPosition&#45;&gt;PerpXchange._maxLiquidityUtilization -->
+<g id="edge18" class="edge" data-name="PerpXchange.createPosition-&gt;PerpXchange._maxLiquidityUtilization">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M240.22,-1753.4C273.94,-1753.23 313.42,-1746.38 337.33,-1719.86 421.55,-1626.4 292.55,-1251.31 373.33,-1154.86 379.36,-1147.65 386.72,-1141.92 394.85,-1137.38" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="396.1,-1140.66 403.62,-1133.2 393.09,-1134.34 396.1,-1140.66" style=""/>
+</g>
+<!-- PerpXchange.getPriceFeed -->
+<g id="node23" class="node" pointer-events="visible" data-name="PerpXchange.getPriceFeed">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1078.22" cy="-1159.86" rx="61.4" ry="18" style=""/>
+<text text-anchor="middle" x="1078.22" y="-1155.66" font-family="Times,serif" font-size="14.00" style="">getPriceFeed</text>
+</g>
+<!-- PerpXchange.createPosition&#45;&gt;PerpXchange.getPriceFeed -->
+<g id="edge17" class="edge" data-name="PerpXchange.createPosition-&gt;PerpXchange.getPriceFeed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M240.2,-1753.39C273.92,-1753.21 313.4,-1746.36 337.33,-1719.86 419.4,-1628.94 284.53,-1254.22 373.33,-1169.86 395.83,-1148.48 826.03,-1154.74 1002.58,-1158.23" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1002.5,-1161.73 1012.57,-1158.43 1002.64,-1154.73 1002.5,-1161.73" style=""/>
+</g>
+<!-- PerpXchange._calculateUserLeverage -->
+<g id="node30" class="node" pointer-events="visible" data-name="PerpXchange._calculateUserLeverage">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-1068.86" rx="104.15" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1064.66" font-family="Times,serif" font-size="14.00" style="">_calculateUserLeverage</text>
+</g>
+<!-- PerpXchange.createPosition&#45;&gt;PerpXchange._calculateUserLeverage -->
+<g id="edge14" class="edge" data-name="PerpXchange.createPosition-&gt;PerpXchange._calculateUserLeverage">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M239.88,-1753.46C273.71,-1753.36 313.41,-1746.56 337.33,-1719.86 430,-1616.4 282.54,-1200.98 373.33,-1095.86 378.91,-1089.39 385.59,-1084.23 392.95,-1080.13" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="394.25,-1083.38 401.82,-1075.97 391.28,-1077.04 394.25,-1083.38" style=""/>
+</g>
+<!-- PerpXchange.createPosition&#45;&gt;PerpXchange.PerpX__OpenPositionExists -->
+<g id="edge16" class="edge" data-name="PerpXchange.createPosition-&gt;PerpXchange.PerpX__OpenPositionExists">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M240,-1753.57C273.87,-1753.5 313.57,-1746.7 337.33,-1719.86 395.27,-1654.39 316.57,-1000.36 373.33,-933.86 377.01,-929.54 381.18,-925.81 385.71,-922.58" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="387.48,-925.6 394.29,-917.48 383.91,-919.58 387.48,-925.6" style=""/>
+</g>
+<!-- PerpXchange.PerpX__InvalidSize -->
+<g id="node49" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__InvalidSize">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-1270.86" rx="89.2" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1266.66" font-family="Times,serif" font-size="14.00" style="">PerpX__InvalidSize</text>
+</g>
+<!-- PerpXchange.createPosition&#45;&gt;PerpXchange.PerpX__InvalidSize -->
+<g id="edge15" class="edge" data-name="PerpXchange.createPosition-&gt;PerpXchange.PerpX__InvalidSize">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M240.39,-1753.19C273.95,-1752.91 313.22,-1746.01 337.33,-1719.86 400.36,-1651.47 312.81,-1373.49 373.33,-1302.86 382.02,-1292.71 393.36,-1285.49 405.73,-1280.41" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="406.71,-1283.78 414.99,-1277.17 404.39,-1277.17 406.71,-1283.78" style=""/>
+</g>
+<!-- PerpXchange.closePosition -->
+<g id="node9" class="node" pointer-events="visible" data-name="PerpXchange.closePosition">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="505.05" cy="-1478.86" rx="62.58" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1474.66" font-family="Times,serif" font-size="14.00" style="">closePosition</text>
+</g>
+<!-- PerpXchange._borrowingFees -->
+<g id="node15" class="node" pointer-events="visible" data-name="PerpXchange._borrowingFees">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-1686.86" rx="73.59" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-1682.66" font-family="Times,serif" font-size="14.00" style="">_borrowingFees</text>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;PerpXchange._borrowingFees -->
+<g id="edge22" class="edge" data-name="PerpXchange.closePosition-&gt;PerpXchange._borrowingFees">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M551.72,-1492.12C577.84,-1500.87 610.52,-1513.87 636.77,-1530.86 692.26,-1566.77 744.94,-1623.74 774.09,-1657.99" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="771.3,-1660.11 780.41,-1665.52 776.67,-1655.61 771.3,-1660.11" style=""/>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;PerpXchange._updateOpenInterests -->
+<g id="edge24" class="edge" data-name="PerpXchange.closePosition-&gt;PerpXchange._updateOpenInterests">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M568.59,-1481.14C612.65,-1485.42 671.97,-1492.82 719.2,-1499.85" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="718.46,-1503.27 728.87,-1501.31 719.51,-1496.35 718.46,-1503.27" style=""/>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;PerpXchange._updateOpenInterests -->
+<g id="edge28" class="edge" data-name="PerpXchange.closePosition-&gt;PerpXchange._updateOpenInterests">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M556.16,-1490.46C593.59,-1496.62 646.08,-1503.7 692.56,-1509.04" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="692.16,-1512.51 702.49,-1510.16 692.94,-1505.56 692.16,-1512.51" style=""/>
+</g>
+<!-- PerpXchange.getAverageOpenPrice -->
+<g id="node25" class="node" pointer-events="visible" data-name="PerpXchange.getAverageOpenPrice">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1078.22" cy="-1541.86" rx="96.1" ry="18" style=""/>
+<text text-anchor="middle" x="1078.22" y="-1537.66" font-family="Times,serif" font-size="14.00" style="">getAverageOpenPrice</text>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;PerpXchange.getAverageOpenPrice -->
+<g id="edge25" class="edge" data-name="PerpXchange.closePosition-&gt;PerpXchange.getAverageOpenPrice">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M552.46,-1465.76C631.33,-1451.2 795.48,-1436.46 924.42,-1479.86 943.12,-1486.15 942.45,-1497.7 960.42,-1505.86 976.35,-1513.09 994.42,-1518.49 1011.5,-1522.79" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1010.24,-1526.09 1020.78,-1525.03 1011.88,-1519.28 1010.24,-1526.09" style=""/>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;PerpXchange.getAverageOpenPrice -->
+<g id="edge29" class="edge" data-name="PerpXchange.closePosition-&gt;PerpXchange.getAverageOpenPrice">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M567.93,-1475.27C651.36,-1467.6 803.4,-1457.12 924.42,-1497.86 943.12,-1504.15 942.45,-1515.7 960.42,-1523.86 965.57,-1526.2 970.94,-1528.34 976.43,-1530.3" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="975.12,-1533.56 985.72,-1533.34 977.3,-1526.9 975.12,-1533.56" style=""/>
+</g>
+<!-- PerpXchange._calculateUserPnl -->
+<g id="node31" class="node" pointer-events="visible" data-name="PerpXchange._calculateUserPnl">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-1413.86" rx="81.08" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-1409.66" font-family="Times,serif" font-size="14.00" style="">_calculateUserPnl</text>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;PerpXchange._calculateUserPnl -->
+<g id="edge23" class="edge" data-name="PerpXchange.closePosition-&gt;PerpXchange._calculateUserPnl">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M556.83,-1467.54C603.48,-1457.14 673.11,-1441.61 725.51,-1429.93" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="726.14,-1433.37 735.14,-1427.78 724.62,-1426.54 726.14,-1433.37" style=""/>
+</g>
+<!-- PerpXchange.PerpX__InvalidPositionId -->
+<g id="node50" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__InvalidPositionId">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1352.49" cy="-1495.86" rx="112.36" ry="18" style=""/>
+<text text-anchor="middle" x="1352.49" y="-1491.66" font-family="Times,serif" font-size="14.00" style="">PerpX__InvalidPositionId</text>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;PerpXchange.PerpX__InvalidPositionId -->
+<g id="edge20" class="edge" data-name="PerpXchange.closePosition-&gt;PerpXchange.PerpX__InvalidPositionId">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M560.66,-1469.4C593.12,-1464.26 635.16,-1458.44 672.77,-1455.86 904.79,-1439.93 965.13,-1433.03 1196.03,-1460.86 1223.53,-1464.17 1253.29,-1470.25 1279.35,-1476.42" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1278.33,-1479.77 1288.87,-1478.73 1279.98,-1472.97 1278.33,-1479.77" style=""/>
+</g>
+<!-- PerpXchange.PerpX__NotOwner -->
+<g id="node51" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__NotOwner">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-1330.86" rx="86.27" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-1326.66" font-family="Times,serif" font-size="14.00" style="">PerpX__NotOwner</text>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;PerpXchange.PerpX__NotOwner -->
+<g id="edge21" class="edge" data-name="PerpXchange.closePosition-&gt;PerpXchange.PerpX__NotOwner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M556.96,-1467.59C582.52,-1460.25 613.03,-1448.83 636.77,-1431.86 657.6,-1416.96 652.51,-1402.54 672.77,-1386.86 691.69,-1372.2 715.06,-1360.41 736.44,-1351.49" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="737.62,-1354.79 745.6,-1347.83 735.02,-1348.29 737.62,-1354.79" style=""/>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;IERC20.safeTransfer -->
+<g id="edge26" class="edge" data-name="PerpXchange.closePosition-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M555.08,-1466.75C583.76,-1460.21 617.93,-1448.52 636.77,-1422.86 694.68,-1343.97 617.64,-623.72 672.77,-542.86 685.48,-524.21 706.02,-511.82 726.81,-504.09" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="727.74,-507.46 736.14,-501 725.55,-500.82 727.74,-507.46" style=""/>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;IERC20.safeTransfer -->
+<g id="edge30" class="edge" data-name="PerpXchange.closePosition-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M568.76,-1479.81C594,-1474.24 620.85,-1462.53 636.77,-1440.86 694.68,-1361.97 617.64,-641.72 672.77,-560.86 689.12,-536.87 718.43,-523.24 744.54,-514.57" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="745.25,-518.01 753.76,-511.7 743.17,-511.33 745.25,-518.01" style=""/>
+</g>
+<!-- SignedMath.abs -->
+<g id="node67" class="node" pointer-events="visible" data-name="SignedMath.abs">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1352.49" cy="-581.86" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="1352.49" y="-577.66" font-family="Times,serif" font-size="14.00" style="">abs</text>
+</g>
+<!-- PerpXchange.closePosition&#45;&gt;SignedMath.abs -->
+<g id="edge27" class="edge" data-name="PerpXchange.closePosition-&gt;SignedMath.abs">
+
+<path fill="none" stroke="white" stroke-width="2" d="M565.06,-1472.14C591.19,-1465.99 619.79,-1454.24 636.77,-1431.86 703.82,-1343.45 612.48,-1027.01 672.77,-933.86 751.2,-812.67 1186.31,-643.31 1315.39,-595.12" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1316.25,-598.53 1324.4,-591.77 1313.81,-591.97 1316.25,-598.53" style=""/>
+</g>
+<!-- PerpXchange.increaseSize -->
+<g id="node10" class="node" pointer-events="visible" data-name="PerpXchange.increaseSize">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-1800.86" rx="59.09" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1796.66" font-family="Times,serif" font-size="14.00" style="">increaseSize</text>
+</g>
+<!-- PerpXchange.increaseSize&#45;&gt;PerpXchange._borrowingFees -->
+<g id="edge33" class="edge" data-name="PerpXchange.increaseSize-&gt;PerpXchange._borrowingFees">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M234.22,-1806.56C268.65,-1806.74 310.93,-1800.54 337.33,-1773.86 409.47,-1700.92 295.33,-1612.5 373.33,-1545.86 417.83,-1507.83 581.97,-1525.24 636.77,-1545.86 696.13,-1568.2 747.88,-1623.51 775.75,-1657.84" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="772.77,-1659.72 781.73,-1665.39 778.26,-1655.38 772.77,-1659.72" style=""/>
+</g>
+<!-- PerpXchange.increaseSize&#45;&gt;PerpXchange._updateOpenInterests -->
+<g id="edge38" class="edge" data-name="PerpXchange.increaseSize-&gt;PerpXchange._updateOpenInterests">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M234.36,-1806.69C268.84,-1806.93 311.14,-1800.74 337.33,-1773.86 416.58,-1692.5 287.98,-1595.8 373.33,-1520.86 385.07,-1510.54 567.77,-1511.71 689.55,-1513.66" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="689.16,-1517.16 699.21,-1513.83 689.27,-1510.16 689.16,-1517.16" style=""/>
+</g>
+<!-- PerpXchange._updateCollateral -->
+<g id="node19" class="node" pointer-events="visible" data-name="PerpXchange._updateCollateral">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-1572.86" rx="79.86" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1568.66" font-family="Times,serif" font-size="14.00" style="">_updateCollateral</text>
+</g>
+<!-- PerpXchange.increaseSize&#45;&gt;PerpXchange._updateCollateral -->
+<g id="edge34" class="edge" data-name="PerpXchange.increaseSize-&gt;PerpXchange._updateCollateral">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M234.9,-1806.06C268.92,-1805.91 310.54,-1799.54 337.33,-1773.86 392.77,-1720.72 319.85,-1659.97 373.33,-1604.86 384.37,-1593.48 398.74,-1585.88 413.9,-1580.87" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="414.61,-1584.3 423.27,-1578.2 412.69,-1577.57 414.61,-1584.3" style=""/>
+</g>
+<!-- PerpXchange.increaseSize&#45;&gt;PerpXchange._maxLiquidityUtilization -->
+<g id="edge37" class="edge" data-name="PerpXchange.increaseSize-&gt;PerpXchange._maxLiquidityUtilization">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.57,-1807.39C268.64,-1808.11 311.88,-1802.21 337.33,-1773.86 427.13,-1673.79 292.75,-1277.5 373.33,-1169.86 382.96,-1156.98 396.45,-1147.63 411.12,-1140.83" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="412.37,-1144.1 420.29,-1137.06 409.71,-1137.63 412.37,-1144.1" style=""/>
+</g>
+<!-- PerpXchange.increaseSize&#45;&gt;PerpXchange.getPriceFeed -->
+<g id="edge32" class="edge" data-name="PerpXchange.increaseSize-&gt;PerpXchange.getPriceFeed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.78,-1807.23C268.7,-1807.83 311.7,-1801.85 337.33,-1773.86 405.66,-1699.2 301.91,-1391.57 373.33,-1319.86 394.05,-1299.04 607.8,-1302.76 636.77,-1297.86 766.92,-1275.84 810.22,-1290.07 924.42,-1223.86 944.27,-1212.35 940.43,-1198.12 960.42,-1186.86 974.51,-1178.92 990.81,-1173.31 1006.68,-1169.35" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1007.33,-1172.79 1016.32,-1167.18 1005.79,-1165.96 1007.33,-1172.79" style=""/>
+</g>
+<!-- PerpXchange.increaseSize&#45;&gt;PerpXchange._calculateUserLeverage -->
+<g id="edge35" class="edge" data-name="PerpXchange.increaseSize-&gt;PerpXchange._calculateUserLeverage">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.64,-1807.44C268.73,-1808.19 311.97,-1802.29 337.33,-1773.86 437.73,-1661.24 274.97,-1210.27 373.33,-1095.86 378.89,-1089.38 385.57,-1084.21 392.91,-1080.1" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="394.22,-1083.36 401.78,-1075.94 391.24,-1077.02 394.22,-1083.36" style=""/>
+</g>
+<!-- PerpXchange.increaseSize&#45;&gt;PerpXchange.PerpX__InvalidSize -->
+<g id="edge36" class="edge" data-name="PerpXchange.increaseSize-&gt;PerpXchange.PerpX__InvalidSize">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.8,-1807.25C268.74,-1807.86 311.74,-1801.89 337.33,-1773.86 408.09,-1696.32 305.42,-1382.91 373.33,-1302.86 381.97,-1292.66 393.28,-1285.43 405.64,-1280.34" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="406.61,-1283.7 414.89,-1277.09 404.3,-1277.1 406.61,-1283.7" style=""/>
+</g>
+<!-- PerpXchange.increaseSize&#45;&gt;PerpXchange.PerpX__NotOwner -->
+<g id="edge31" class="edge" data-name="PerpXchange.increaseSize-&gt;PerpXchange.PerpX__NotOwner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.74,-1807.19C268.65,-1807.78 311.64,-1801.8 337.33,-1773.86 402.37,-1703.1 303.52,-1408.92 373.33,-1342.86 396.44,-1320.98 581.6,-1323.17 699.55,-1326.9" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="699.39,-1330.4 709.5,-1327.23 699.62,-1323.4 699.39,-1330.4" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize -->
+<g id="node11" class="node" pointer-events="visible" data-name="PerpXchange.decreaseSize">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-1854.86" rx="60.79" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1850.66" font-family="Times,serif" font-size="14.00" style="">decreaseSize</text>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange.closePosition -->
+<g id="edge42" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange.closePosition">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M235.66,-1860.83C269.98,-1860.97 311.62,-1854.62 337.33,-1827.86 424.84,-1736.72 300.73,-1649.27 373.33,-1545.86 390.09,-1521.98 417.97,-1506.07 443.68,-1495.76" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="444.71,-1499.12 452.85,-1492.34 442.26,-1492.56 444.71,-1499.12" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange._borrowingFees -->
+<g id="edge45" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange._borrowingFees">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M238,-1858.21C270.61,-1856.93 309.71,-1850.05 337.33,-1827.86 370.58,-1801.13 339.11,-1764.36 373.33,-1738.86 420.47,-1703.71 578.46,-1721.51 636.77,-1713.86 665.6,-1710.07 697.19,-1704.98 724.69,-1700.23" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="725.18,-1703.7 734.43,-1698.53 723.98,-1696.8 725.18,-1703.7" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange._updateOpenInterests -->
+<g id="edge43" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange._updateOpenInterests">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M236.38,-1860.38C270.3,-1860.21 311.28,-1853.69 337.33,-1827.86 402.38,-1763.32 305.97,-1686.98 373.33,-1624.86 416.55,-1584.99 580.38,-1616.56 636.77,-1599.86 681.28,-1586.67 727.85,-1560.82 759.35,-1541.26" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="761.1,-1544.3 767.69,-1535.99 757.36,-1538.38 761.1,-1544.3" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange._updateCollateral -->
+<g id="edge47" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange._updateCollateral">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M230.74,-1845.31C265.73,-1843.09 310,-1837.39 337.33,-1809.86 408.05,-1738.6 305.23,-1660.63 373.33,-1586.86 391.9,-1566.74 420.86,-1558.33 446.81,-1556.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="446.66,-1560.36 456.61,-1556.73 446.57,-1553.36 446.66,-1560.36" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange._updateCollateral -->
+<g id="edge48" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange._updateCollateral">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M236.13,-1860.53C270.18,-1860.45 311.38,-1854 337.33,-1827.86 408.05,-1756.6 305.23,-1678.63 373.33,-1604.86 384.08,-1593.21 398.32,-1585.48 413.44,-1580.43" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="414.14,-1583.87 422.79,-1577.75 412.21,-1577.14 414.14,-1583.87" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange._updateCollateral -->
+<g id="edge51" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange._updateCollateral">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M207.26,-1871.75C243.25,-1880.56 303.36,-1880.08 337.33,-1845.86 408.05,-1774.6 305.23,-1696.63 373.33,-1622.86 390.67,-1604.07 417.07,-1595.5 441.61,-1590.43" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="442.06,-1593.91 451.25,-1588.63 440.77,-1587.03 442.06,-1593.91" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange.getPriceFeed -->
+<g id="edge41" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange.getPriceFeed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M235.33,-1861.24C269.96,-1861.64 312.07,-1855.43 337.33,-1827.86 405.08,-1753.88 300.86,-1447.23 373.33,-1377.86 417.58,-1335.48 877.54,-1397.32 924.42,-1357.86 983.83,-1307.84 906.04,-1242.31 960.42,-1186.86 971.8,-1175.25 987.11,-1168.21 1002.9,-1164.03" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1003.61,-1167.46 1012.63,-1161.91 1002.12,-1160.62 1003.61,-1167.46" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange.getAverageOpenPrice -->
+<g id="edge44" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange.getAverageOpenPrice">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M236.44,-1860.04C270.17,-1859.7 310.93,-1853.13 337.33,-1827.86 392.48,-1775.05 318.01,-1712.51 373.33,-1659.86 416.29,-1618.96 578.26,-1626.61 636.77,-1616.86 760.01,-1596.31 902.54,-1571.92 991.29,-1556.67" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="991.74,-1560.14 1001.01,-1555 990.56,-1553.24 991.74,-1560.14" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange._calculateUserPnl -->
+<g id="edge46" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange._calculateUserPnl">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M235.57,-1861.11C270.07,-1861.4 311.95,-1855.13 337.33,-1827.86 394.5,-1766.4 313.39,-1510.62 373.33,-1451.86 394.29,-1431.31 607.54,-1434.6 636.77,-1431.86 661.19,-1429.56 687.66,-1426.74 711.94,-1424.02" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="712.24,-1427.51 721.79,-1422.9 711.45,-1420.55 712.24,-1427.51" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange.PerpX__InvalidSize -->
+<g id="edge40" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange.PerpX__InvalidSize">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M235.38,-1861.29C270.04,-1861.71 312.15,-1855.5 337.33,-1827.86 410.09,-1747.95 314.94,-1433.8 373.33,-1342.86 388.48,-1319.25 414.2,-1302.73 438.84,-1291.53" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="440.18,-1294.76 448.01,-1287.63 437.44,-1288.32 440.18,-1294.76" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;PerpXchange.PerpX__NotOwner -->
+<g id="edge39" class="edge" data-name="PerpXchange.decreaseSize-&gt;PerpXchange.PerpX__NotOwner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M235.35,-1861.27C270,-1861.67 312.11,-1855.46 337.33,-1827.86 407.23,-1751.34 299.97,-1436.07 373.33,-1362.86 384.73,-1351.47 577.75,-1340.74 699.47,-1335.06" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="699.63,-1338.56 709.46,-1334.6 699.3,-1331.56 699.63,-1338.56" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;IERC20.safeTransfer -->
+<g id="edge49" class="edge" data-name="PerpXchange.decreaseSize-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M238.53,-1853.83C272.78,-1852.85 313.36,-1846.26 337.33,-1818.86 414.62,-1730.49 318.53,-866.69 373.33,-762.86 450.41,-616.81 529.81,-625.53 672.77,-542.86 692.73,-531.31 715.57,-520.59 736.21,-512.23" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="737.21,-515.6 745.25,-508.7 734.66,-509.08 737.21,-515.6" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;IERC20.safeTransfer -->
+<g id="edge52" class="edge" data-name="PerpXchange.decreaseSize-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M221.74,-1868.19C258.51,-1872.48 309.28,-1868.91 337.33,-1836.86 414.62,-1748.49 318.53,-884.69 373.33,-780.86 450.41,-634.81 529.81,-643.53 672.77,-560.86 700.25,-544.96 733.18,-530.63 758.31,-519.29" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="759.57,-522.57 767.22,-515.23 756.67,-516.2 759.57,-522.57" style=""/>
+</g>
+<!-- PerpXchange.decreaseSize&#45;&gt;SignedMath.abs -->
+<g id="edge50" class="edge" data-name="PerpXchange.decreaseSize-&gt;SignedMath.abs">
+
+<path fill="none" stroke="white" stroke-width="2" d="M234.65,-1861.66C269.7,-1862.39 312.51,-1856.38 337.33,-1827.86 383.18,-1775.15 354.12,-638.03 373.33,-570.86 445.9,-317.03 443.82,-189.31 672.77,-57.86 769.76,-2.16 823.39,-9.87 924.42,-57.86 1039.64,-112.59 1267.14,-452.24 1333.14,-553.43" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1330.17,-555.28 1338.55,-561.76 1336.04,-551.47 1330.17,-555.28" style=""/>
+</g>
+<!-- PerpXchange.increaseCollateral -->
+<g id="node12" class="node" pointer-events="visible" data-name="PerpXchange.increaseCollateral">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="505.05" cy="-1196.86" rx="80.99" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1192.66" font-family="Times,serif" font-size="14.00" style="">increaseCollateral</text>
+</g>
+<!-- PerpXchange.increaseCollateral&#45;&gt;PerpXchange.PerpX__NotOwner -->
+<g id="edge54" class="edge" data-name="PerpXchange.increaseCollateral-&gt;PerpXchange.PerpX__NotOwner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M571.22,-1208.43C592.59,-1213.37 616.13,-1220.07 636.77,-1228.86 683.57,-1248.79 732.21,-1281.61 763.57,-1304.62" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="761.37,-1307.35 771.48,-1310.51 765.55,-1301.73 761.37,-1307.35" style=""/>
+</g>
+<!-- PerpXchange.PerpX__InvalidCollateral -->
+<g id="node52" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__InvalidCollateral">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-1196.86" rx="110.6" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-1192.66" font-family="Times,serif" font-size="14.00" style="">PerpX__InvalidCollateral</text>
+</g>
+<!-- PerpXchange.increaseCollateral&#45;&gt;PerpXchange.PerpX__InvalidCollateral -->
+<g id="edge53" class="edge" data-name="PerpXchange.increaseCollateral-&gt;PerpXchange.PerpX__InvalidCollateral">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M587.26,-1196.86C614.04,-1196.86 644.47,-1196.86 673.7,-1196.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="673.56,-1200.36 683.56,-1196.86 673.56,-1193.36 673.56,-1200.36" style=""/>
+</g>
+<!-- PerpXchange.increaseCollateral&#45;&gt;IERC20.safeTransferFrom -->
+<g id="edge55" class="edge" data-name="PerpXchange.increaseCollateral-&gt;IERC20.safeTransferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M576.48,-1187.33C599.28,-1180.62 622.38,-1169.21 636.77,-1149.86 727.05,-1028.42 574.66,-585.07 672.77,-469.86 681.32,-459.81 692.63,-452.98 704.97,-448.41" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="705.63,-451.87 714.16,-445.58 703.57,-445.18 705.63,-451.87" style=""/>
+</g>
+<!-- PerpXchange.decreaseCollateral -->
+<g id="node13" class="node" pointer-events="visible" data-name="PerpXchange.decreaseCollateral">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-1584.86" rx="82.19" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1580.66" font-family="Times,serif" font-size="14.00" style="">decreaseCollateral</text>
+</g>
+<!-- PerpXchange.decreaseCollateral&#45;&gt;PerpXchange._calculateUserLeverage -->
+<g id="edge58" class="edge" data-name="PerpXchange.decreaseCollateral-&gt;PerpXchange._calculateUserLeverage">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M256.34,-1590.63C285.81,-1588.42 317.03,-1580.06 337.33,-1557.86 406.8,-1481.85 305.23,-1173.11 373.33,-1095.86 378.97,-1089.45 385.7,-1084.33 393.09,-1080.25" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="394.4,-1083.5 402,-1076.12 391.45,-1077.15 394.4,-1083.5" style=""/>
+</g>
+<!-- PerpXchange.decreaseCollateral&#45;&gt;PerpXchange.PerpX__InvalidAmount -->
+<g id="edge57" class="edge" data-name="PerpXchange.decreaseCollateral-&gt;PerpXchange.PerpX__InvalidAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M259.57,-1582.28C288.21,-1579.19 318,-1570.61 337.33,-1548.86 391.4,-1487.97 320.36,-878.71 373.33,-816.86 377.73,-811.71 382.84,-807.38 388.43,-803.78" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="389.91,-806.95 397.05,-799.13 386.59,-800.79 389.91,-806.95" style=""/>
+</g>
+<!-- PerpXchange.decreaseCollateral&#45;&gt;PerpXchange.PerpX__InvalidAmount -->
+<g id="edge59" class="edge" data-name="PerpXchange.decreaseCollateral-&gt;PerpXchange.PerpX__InvalidAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.28,-1599.12C268.46,-1601.28 311.94,-1595.44 337.33,-1566.86 391.4,-1505.97 320.36,-896.71 373.33,-834.86 381.69,-825.09 392.57,-818.29 404.49,-813.53" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="405.46,-816.9 413.82,-810.39 403.23,-810.26 405.46,-816.9" style=""/>
+</g>
+<!-- PerpXchange.decreaseCollateral&#45;&gt;PerpXchange.PerpX__InsufficientCollateral -->
+<g id="edge56" class="edge" data-name="PerpXchange.decreaseCollateral-&gt;PerpXchange.PerpX__InsufficientCollateral">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M256.21,-1590.91C285.84,-1588.79 317.21,-1580.41 337.33,-1557.86 437.73,-1445.24 274.97,-994.27 373.33,-879.86 376.58,-876.08 380.2,-872.74 384.12,-869.8" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="385.93,-872.8 392.55,-864.52 382.21,-866.87 385.93,-872.8" style=""/>
+</g>
+<!-- PerpXchange.decreaseCollateral&#45;&gt;IERC20.safeTransfer -->
+<g id="edge60" class="edge" data-name="PerpXchange.decreaseCollateral-&gt;IERC20.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M255.59,-1591.16C285.5,-1589.16 317.24,-1580.81 337.33,-1557.86 414.41,-1469.75 289.91,-587 373.33,-504.86 422.08,-456.85 623.45,-474.3 730.3,-487.49" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="729.79,-490.95 740.15,-488.73 730.67,-484.01 729.79,-490.95" style=""/>
+</g>
+<!-- PerpXchange.liquidate -->
+<g id="node14" class="node" pointer-events="visible" data-name="PerpXchange.liquidate">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-1908.86" rx="44.65" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1904.66" font-family="Times,serif" font-size="14.00" style="">liquidate</text>
+</g>
+<!-- PerpXchange.liquidate&#45;&gt;PerpXchange._borrowingFees -->
+<g id="edge62" class="edge" data-name="PerpXchange.liquidate-&gt;PerpXchange._borrowingFees">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M221.62,-1913.24C257.07,-1914.27 306.02,-1909.69 337.33,-1881.86 379.89,-1844.01 329.61,-1795.38 373.33,-1758.86 418.51,-1721.11 578.91,-1741.77 636.77,-1730.86 670.86,-1724.42 708.29,-1714.37 738.46,-1705.49" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="739.43,-1708.86 748.01,-1702.64 737.42,-1702.15 739.43,-1708.86" style=""/>
+</g>
+<!-- PerpXchange.liquidate&#45;&gt;PerpXchange._updateOpenInterests -->
+<g id="edge66" class="edge" data-name="PerpXchange.liquidate-&gt;PerpXchange._updateOpenInterests">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M220.75,-1914.14C256.9,-1915.98 307.31,-1912.07 337.33,-1881.86 407.77,-1810.94 302.68,-1730.57 373.33,-1659.86 457.17,-1575.93 525.79,-1658.79 636.77,-1616.86 684.36,-1598.87 733.01,-1565.87 764.15,-1542.49" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="766.17,-1545.35 772,-1536.5 761.92,-1539.79 766.17,-1545.35" style=""/>
+</g>
+<!-- PerpXchange.liquidate&#45;&gt;PerpXchange._updateCollateral -->
+<g id="edge65" class="edge" data-name="PerpXchange.liquidate-&gt;PerpXchange._updateCollateral">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M220.92,-1914.3C257.17,-1916.25 307.64,-1912.4 337.33,-1881.86 417.72,-1799.15 302.09,-1715.57 373.33,-1624.86 386.82,-1607.68 406.84,-1596.15 427.18,-1588.43" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="428.3,-1591.75 436.62,-1585.19 426.03,-1585.13 428.3,-1591.75" style=""/>
+</g>
+<!-- PerpXchange.liquidate&#45;&gt;PerpXchange.getPriceFeed -->
+<g id="edge63" class="edge" data-name="PerpXchange.liquidate-&gt;PerpXchange.getPriceFeed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M221.71,-1912.94C256.97,-1913.75 305.62,-1909.02 337.33,-1881.86 375.75,-1848.94 333.66,-1805.27 373.33,-1773.86 419.4,-1737.36 578.32,-1756.17 636.77,-1749.86 764.86,-1736.01 835.91,-1807.49 924.42,-1713.86 1005.05,-1628.55 884.27,-1276.19 960.42,-1186.86 971.28,-1174.11 986.86,-1166.71 1003.12,-1162.55" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1003.56,-1166.03 1012.65,-1160.58 1002.15,-1159.18 1003.56,-1166.03" style=""/>
+</g>
+<!-- PerpXchange.liquidate&#45;&gt;PerpXchange._calculateUserLeverage -->
+<g id="edge61" class="edge" data-name="PerpXchange.liquidate-&gt;PerpXchange._calculateUserLeverage">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M220.2,-1914.88C257.02,-1917.44 308.72,-1914.17 337.33,-1881.86 395.27,-1816.39 316.57,-1162.36 373.33,-1095.86 378.87,-1089.36 385.53,-1084.17 392.86,-1080.06" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="394.16,-1083.31 401.72,-1075.89 391.18,-1076.98 394.16,-1083.31" style=""/>
+</g>
+<!-- PerpXchange.liquidate&#45;&gt;PerpXchange.IERC20 -->
+<g id="edge67" class="edge" data-name="PerpXchange.liquidate-&gt;PerpXchange.IERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M219.66,-1901.91C278.7,-1892.14 386.2,-1874.35 450.78,-1863.67" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="451.21,-1867.15 460.5,-1862.06 450.06,-1860.24 451.21,-1867.15" style=""/>
+</g>
+<!-- PerpXchange.PerpX__NoLiquidationNeeded -->
+<g id="node53" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__NoLiquidationNeeded">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="505.05" cy="-1800.86" rx="131.94" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1796.66" font-family="Times,serif" font-size="14.00" style="">PerpX__NoLiquidationNeeded</text>
+</g>
+<!-- PerpXchange.liquidate&#45;&gt;PerpXchange.PerpX__NoLiquidationNeeded -->
+<g id="edge64" class="edge" data-name="PerpXchange.liquidate-&gt;PerpXchange.PerpX__NoLiquidationNeeded">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M222.39,-1910.54C256.44,-1909.75 303.12,-1904.03 337.33,-1881.86 361.53,-1866.17 349.41,-1843.98 373.33,-1827.86 378.97,-1824.05 385.04,-1820.76 391.36,-1817.93" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="392.18,-1821.37 400.17,-1814.41 389.59,-1814.87 392.18,-1821.37" style=""/>
+</g>
+<!-- PerpXchange._updatedLiquidity -->
+<g id="node16" class="node" pointer-events="visible" data-name="PerpXchange._updatedLiquidity">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="798.59" cy="-1014.86" rx="82.26" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-1010.66" font-family="Times,serif" font-size="14.00" style="">_updatedLiquidity</text>
+</g>
+<!-- PerpXchange.totalAssets -->
+<g id="node34" class="node" pointer-events="visible" data-name="PerpXchange.totalAssets">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1078.22" cy="-1213.86" rx="53.34" ry="18" style=""/>
+<text text-anchor="middle" x="1078.22" y="-1209.66" font-family="Times,serif" font-size="14.00" style="">totalAssets</text>
+</g>
+<!-- PerpXchange._updatedLiquidity&#45;&gt;PerpXchange.totalAssets -->
+<g id="edge68" class="edge" data-name="PerpXchange._updatedLiquidity-&gt;PerpXchange.totalAssets">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M838.27,-1032C865.57,-1045.81 901.26,-1067.57 924.42,-1095.86 951.97,-1129.51 927.45,-1158.49 960.42,-1186.86 974.51,-1198.99 993,-1205.94 1011.09,-1209.85" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1010.37,-1213.28 1020.83,-1211.61 1011.61,-1206.39 1010.37,-1213.28" style=""/>
+</g>
+<!-- PerpXchange._updatedLiquidity&#45;&gt;SignedMath.abs -->
+<g id="edge69" class="edge" data-name="PerpXchange._updatedLiquidity-&gt;SignedMath.abs">
+
+<path fill="none" stroke="white" stroke-width="2" d="M877.95,-1008.66C970.75,-996.73 1122.04,-961.84 1196.03,-859.86 1254.69,-779.01 1164.04,-716.73 1224.03,-636.86 1244.99,-608.95 1283.02,-595.02 1312.11,-588.18" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1312.72,-591.62 1321.78,-586.13 1311.28,-584.77 1312.72,-591.62" style=""/>
+</g>
+<!-- PerpXchange._totalOpenInterest -->
+<g id="node17" class="node" pointer-events="visible" data-name="PerpXchange._totalOpenInterest">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="176.66" cy="-1314.86" rx="82.81" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1310.66" font-family="Times,serif" font-size="14.00" style="">_totalOpenInterest</text>
+</g>
+<!-- PerpXchange.PerpX__NoPositionChosen -->
+<g id="node54" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__NoPositionChosen">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1078.22" cy="-1487.86" rx="117.61" ry="18" style=""/>
+<text text-anchor="middle" x="1078.22" y="-1483.66" font-family="Times,serif" font-size="14.00" style="">PerpX__NoPositionChosen</text>
+</g>
+<!-- PerpXchange._updateOpenInterests&#45;&gt;PerpXchange.PerpX__NoPositionChosen -->
+<g id="edge70" class="edge" data-name="PerpXchange._updateOpenInterests-&gt;PerpXchange.PerpX__NoPositionChosen">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M885.15,-1507.23C910.07,-1504.71 937.69,-1501.93 964.03,-1499.27" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="964.24,-1502.77 973.84,-1498.28 963.53,-1495.81 964.24,-1502.77" style=""/>
+</g>
+<!-- PerpXchange._convertToShares -->
+<g id="node20" class="node" pointer-events="visible" data-name="PerpXchange._convertToShares">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="798.59" cy="-1854.86" rx="81.09" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-1850.66" font-family="Times,serif" font-size="14.00" style="">_convertToShares</text>
+</g>
+<!-- PerpXchange._convertToShares&#45;&gt;PerpXchange.totalAssets -->
+<g id="edge75" class="edge" data-name="PerpXchange._convertToShares-&gt;PerpXchange.totalAssets">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M840.04,-1838.08C868.59,-1823.99 905.07,-1800.98 924.42,-1768.86 995.5,-1650.78 922.46,-1593.35 960.42,-1460.86 984.1,-1378.18 1032.82,-1288.73 1059.24,-1243.56" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1062.13,-1245.54 1064.21,-1235.15 1056.11,-1241.98 1062.13,-1245.54" style=""/>
+</g>
+<!-- PerpXchange.totalSupply -->
+<g id="node55" class="node" pointer-events="visible" data-name="PerpXchange.totalSupply">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1078.22" cy="-1854.86" rx="55.64" ry="18" style=""/>
+<text text-anchor="middle" x="1078.22" y="-1850.66" font-family="Times,serif" font-size="14.00" style="">totalSupply</text>
+</g>
+<!-- PerpXchange._convertToShares&#45;&gt;PerpXchange.totalSupply -->
+<g id="edge71" class="edge" data-name="PerpXchange._convertToShares-&gt;PerpXchange.totalSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M876.93,-1848.73C918.97,-1847.82 970.43,-1847.91 1010.67,-1849" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1010.45,-1852.49 1020.56,-1849.3 1010.67,-1845.49 1010.45,-1852.49" style=""/>
+</g>
+<!-- PerpXchange._convertToShares&#45;&gt;PerpXchange.totalSupply -->
+<g id="edge73" class="edge" data-name="PerpXchange._convertToShares-&gt;PerpXchange.totalSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M876.93,-1860.98C918.97,-1861.9 970.43,-1861.81 1010.67,-1860.72" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1010.67,-1864.22 1020.56,-1860.41 1010.45,-1857.22 1010.67,-1864.22" style=""/>
+</g>
+<!-- PerpXchange._decimalsOffset -->
+<g id="node56" class="node" pointer-events="visible" data-name="PerpXchange._decimalsOffset">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1078.22" cy="-1908.86" rx="74.14" ry="18" style=""/>
+<text text-anchor="middle" x="1078.22" y="-1904.66" font-family="Times,serif" font-size="14.00" style="">_decimalsOffset</text>
+</g>
+<!-- PerpXchange._convertToShares&#45;&gt;PerpXchange._decimalsOffset -->
+<g id="edge74" class="edge" data-name="PerpXchange._convertToShares-&gt;PerpXchange._decimalsOffset">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M862.59,-1867.11C904.96,-1875.35 960.93,-1886.24 1005.09,-1894.83" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1004.34,-1898.25 1014.83,-1896.72 1005.68,-1891.38 1004.34,-1898.25" style=""/>
+</g>
+<!-- assets.mulDiv -->
+<g id="node68" class="node" pointer-events="visible" data-name="assets.mulDiv">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1078.22" cy="-2047.86" rx="40.59" ry="18" style=""/>
+<text text-anchor="middle" x="1078.22" y="-2043.66" font-family="Times,serif" font-size="14.00" style="">mulDiv</text>
+</g>
+<!-- PerpXchange._convertToShares&#45;&gt;assets.mulDiv -->
+<g id="edge72" class="edge" data-name="PerpXchange._convertToShares-&gt;assets.mulDiv">
+
+<path fill="none" stroke="white" stroke-width="2" d="M812.89,-1874C837.76,-1908.28 894.76,-1980.11 960.42,-2017.86 980.03,-2029.13 1003.9,-2036.24 1024.94,-2040.68" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1024.15,-2044.09 1034.64,-2042.54 1025.48,-2037.22 1024.15,-2044.09" style=""/>
+</g>
+<!-- PerpXchange._maxLiquidityUtilization&#45;&gt;PerpXchange._updatedLiquidity -->
+<g id="edge77" class="edge" data-name="PerpXchange._maxLiquidityUtilization-&gt;PerpXchange._updatedLiquidity">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M586.79,-1109.64C603.54,-1105.94 620.9,-1101.38 636.77,-1095.86 659.76,-1087.85 714.31,-1059.6 753.5,-1038.71" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="755.03,-1041.86 762.2,-1034.05 751.73,-1035.69 755.03,-1041.86" style=""/>
+</g>
+<!-- PerpXchange._maxLiquidityUtilization&#45;&gt;PerpXchange.getPriceFeed -->
+<g id="edge76" class="edge" data-name="PerpXchange._maxLiquidityUtilization-&gt;PerpXchange.getPriceFeed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M574.16,-1107.65C657.57,-1091.5 802.75,-1071.41 924.42,-1095.86 963.87,-1103.79 1005.85,-1122.17 1035.8,-1137.21" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1033.87,-1140.15 1044.37,-1141.6 1037.07,-1133.92 1033.87,-1140.15" style=""/>
+</g>
+<!-- PerpXchange.PerpX__InsufficientLiquidity -->
+<g id="node57" class="node" pointer-events="visible" data-name="PerpXchange.PerpX__InsufficientLiquidity">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-1122.86" rx="125.65" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-1118.66" font-family="Times,serif" font-size="14.00" style="">PerpX__InsufficientLiquidity</text>
+</g>
+<!-- PerpXchange._maxLiquidityUtilization&#45;&gt;PerpXchange.PerpX__InsufficientLiquidity -->
+<g id="edge78" class="edge" data-name="PerpXchange._maxLiquidityUtilization-&gt;PerpXchange.PerpX__InsufficientLiquidity">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M616.27,-1122.86C630.09,-1122.86 644.38,-1122.86 658.57,-1122.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="658.54,-1126.36 668.54,-1122.86 658.54,-1119.36 658.54,-1126.36" style=""/>
+</g>
+<!-- PerpXchange.userPositionByIndex -->
+<g id="node22" class="node" pointer-events="visible" data-name="PerpXchange.userPositionByIndex">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1260.86" rx="92.09" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1256.66" font-family="Times,serif" font-size="14.00" style="">userPositionByIndex</text>
+</g>
+<!-- Oracle.getBtcInUsdPrice -->
+<g id="node69" class="node" pointer-events="visible" data-name="Oracle.getBtcInUsdPrice">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1352.49" cy="-319.86" rx="79.88" ry="18" style=""/>
+<text text-anchor="middle" x="1352.49" y="-315.66" font-family="Times,serif" font-size="14.00" style="">getBtcInUsdPrice</text>
+</g>
+<!-- PerpXchange.getPriceFeed&#45;&gt;Oracle.getBtcInUsdPrice -->
+<g id="edge79" class="edge" data-name="PerpXchange.getPriceFeed-&gt;Oracle.getBtcInUsdPrice">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1081.87,-1140.64C1092.82,-1064.18 1138.03,-774.84 1224.03,-551.86 1253.57,-475.27 1303.94,-392.61 1331.69,-349.64" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1334.54,-351.68 1337.06,-341.39 1328.67,-347.86 1334.54,-351.68" style=""/>
+</g>
+<!-- PerpXchange._getConversionRate -->
+<g id="node24" class="node" pointer-events="visible" data-name="PerpXchange._getConversionRate">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="176.66" cy="-936.86" rx="89.77" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-932.66" font-family="Times,serif" font-size="14.00" style="">_getConversionRate</text>
+</g>
+<!-- Oracle.convertPriceFromUsdToBtc -->
+<g id="node70" class="node" pointer-events="visible" data-name="Oracle.convertPriceFromUsdToBtc">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1352.49" cy="-265.86" rx="120.42" ry="18" style=""/>
+<text text-anchor="middle" x="1352.49" y="-261.66" font-family="Times,serif" font-size="14.00" style="">convertPriceFromUsdToBtc</text>
+</g>
+<!-- PerpXchange._getConversionRate&#45;&gt;Oracle.convertPriceFromUsdToBtc -->
+<g id="edge80" class="edge" data-name="PerpXchange._getConversionRate-&gt;Oracle.convertPriceFromUsdToBtc">
+
+<path fill="none" stroke="white" stroke-width="2" d="M264.2,-942.29C291.41,-939.3 319.08,-930.5 337.33,-909.86 397.56,-841.68 314.57,-161.32 373.33,-91.86 494.62,51.54 1166.17,-11.7 1196.03,-27.86 1278.03,-72.24 1323.66,-180.73 1341.95,-234.54" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1338.54,-235.38 1344.98,-243.79 1345.19,-233.2 1338.54,-235.38" style=""/>
+</g>
+<!-- PerpXchange.getAverageOpenPrice&#45;&gt;PerpXchange.PerpX__InvalidPositionId -->
+<g id="edge81" class="edge" data-name="PerpXchange.getAverageOpenPrice-&gt;PerpXchange.PerpX__InvalidPositionId">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1152.9,-1529.41C1185.44,-1523.91 1224.06,-1517.39 1258.55,-1511.56" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1258.79,-1515.07 1268.07,-1509.95 1257.62,-1508.17 1258.79,-1515.07" style=""/>
+</g>
+<!-- PerpXchange.getTotalPnl -->
+<g id="node26" class="node" pointer-events="visible" data-name="PerpXchange.getTotalPnl">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1152.86" rx="56.19" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1148.66" font-family="Times,serif" font-size="14.00" style="">getTotalPnl</text>
+</g>
+<!-- PerpXchange.getTotalLiquidityDeposited -->
+<g id="node27" class="node" pointer-events="visible" data-name="PerpXchange.getTotalLiquidityDeposited">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1098.86" rx="118.13" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1094.66" font-family="Times,serif" font-size="14.00" style="">getTotalLiquidityDeposited</text>
+</g>
+<!-- PerpXchange.getMaxUtilizationPercentage -->
+<g id="node28" class="node" pointer-events="visible" data-name="PerpXchange.getMaxUtilizationPercentage">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1044.86" rx="124.39" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1040.66" font-family="Times,serif" font-size="14.00" style="">getMaxUtilizationPercentage</text>
+</g>
+<!-- PerpXchange.getMaxUtilizationPercentageDecimals -->
+<g id="node29" class="node" pointer-events="visible" data-name="PerpXchange.getMaxUtilizationPercentageDecimals">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-990.86" rx="160.83" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-986.66" font-family="Times,serif" font-size="14.00" style="">getMaxUtilizationPercentageDecimals</text>
+</g>
+<!-- PerpXchange._calculateUserLeverage&#45;&gt;PerpXchange.getPriceFeed -->
+<g id="edge82" class="edge" data-name="PerpXchange._calculateUserLeverage-&gt;PerpXchange.getPriceFeed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M597.47,-1059.53C683.35,-1053.5 814.71,-1051.34 924.42,-1079.86 967.33,-1091.01 1011.73,-1116.03 1041.53,-1135.14" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1039.39,-1137.92 1049.67,-1140.48 1043.23,-1132.07 1039.39,-1137.92" style=""/>
+</g>
+<!-- PerpXchange._calculateUserLeverage&#45;&gt;PerpXchange._calculateUserPnl -->
+<g id="edge84" class="edge" data-name="PerpXchange._calculateUserLeverage-&gt;PerpXchange._calculateUserPnl">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M604.51,-1075.19C616.66,-1079.75 627.9,-1086.38 636.77,-1095.86 717.04,-1181.71 602.31,-1263.78 672.77,-1357.86 685.91,-1375.42 705.82,-1387.59 725.9,-1395.99" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="724.61,-1399.24 735.2,-1399.54 727.11,-1392.7 724.61,-1399.24" style=""/>
+</g>
+<!-- PerpXchange._calculateUserLeverage&#45;&gt;SignedMath.abs -->
+<g id="edge87" class="edge" data-name="PerpXchange._calculateUserLeverage-&gt;SignedMath.abs">
+
+<path fill="none" stroke="white" stroke-width="2" d="M604.22,-1062.25C616.42,-1057.73 627.75,-1051.19 636.77,-1041.86 702.58,-973.77 612.21,-904.66 672.77,-831.86 841.93,-628.48 1192.28,-590.53 1311.08,-583.47" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1311.25,-586.96 1321.05,-582.93 1310.88,-579.97 1311.25,-586.96" style=""/>
+</g>
+<!-- _size.mulDiv -->
+<g id="node71" class="node" pointer-events="visible" data-name="_size.mulDiv">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-581.86" rx="40.59" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-577.66" font-family="Times,serif" font-size="14.00" style="">mulDiv</text>
+</g>
+<!-- PerpXchange._calculateUserLeverage&#45;&gt;_size.mulDiv -->
+<g id="edge83" class="edge" data-name="PerpXchange._calculateUserLeverage-&gt;_size.mulDiv">
+
+<path fill="none" stroke="white" stroke-width="2" d="M542.53,-1050.63C572.46,-1045.65 613.56,-1040.9 636.77,-1014.86 696.88,-947.4 620.1,-683.28 672.77,-609.86 693.2,-581.37 731.75,-567.43 760.63,-565.97" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="760.42,-569.47 770.48,-566.15 760.55,-562.47 760.42,-569.47" style=""/>
+</g>
+<!-- PerpXchange._calculateUserLeverage&#45;&gt;_size.mulDiv -->
+<g id="edge85" class="edge" data-name="PerpXchange._calculateUserLeverage-&gt;_size.mulDiv">
+
+<path fill="none" stroke="white" stroke-width="2" d="M592.68,-1058.04C609.41,-1053.42 625.28,-1045.75 636.77,-1032.86 696.88,-965.4 620.1,-701.28 672.77,-627.86 689.55,-604.46 718.55,-590.88 744.38,-584.03" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="744.82,-587.52 753.79,-581.88 743.26,-580.7 744.82,-587.52" style=""/>
+</g>
+<!-- PerpXchange._calculateUserLeverage&#45;&gt;_size.mulDiv -->
+<g id="edge86" class="edge" data-name="PerpXchange._calculateUserLeverage-&gt;_size.mulDiv">
+
+<path fill="none" stroke="white" stroke-width="2" d="M610.36,-1069.6C620.34,-1065.17 629.44,-1059.08 636.77,-1050.86 696.88,-983.4 620.1,-719.28 672.77,-645.86 691.44,-619.82 725.23,-605.95 752.95,-597.32" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="753.69,-600.75 762.28,-594.56 751.7,-594.04 753.69,-600.75" style=""/>
+</g>
+<!-- PerpXchange._calculateUserLeverage&#45;&gt;_size.mulDiv -->
+<g id="edge88" class="edge" data-name="PerpXchange._calculateUserLeverage-&gt;_size.mulDiv">
+
+<path fill="none" stroke="white" stroke-width="2" d="M524.05,-1087.97C552.68,-1100.71 608.24,-1100.86 636.77,-1068.86 696.88,-1001.4 620.1,-737.28 672.77,-663.86 695.71,-631.87 741.5,-618.23 770.78,-605.21" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="772.05,-608.48 779.49,-600.94 768.97,-602.2 772.05,-608.48" style=""/>
+</g>
+<!-- PerpXchange._calculateUserPnl&#45;&gt;PerpXchange.getPriceFeed -->
+<g id="edge89" class="edge" data-name="PerpXchange._calculateUserPnl-&gt;PerpXchange.getPriceFeed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M870.56,-1404.32C890.52,-1398.33 910.54,-1388.6 924.42,-1372.86 980.08,-1309.68 901.96,-1247.46 960.42,-1186.86 971.87,-1174.98 987.44,-1167.87 1003.47,-1163.71" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1003.75,-1167.23 1012.8,-1161.71 1002.29,-1160.39 1003.75,-1167.23" style=""/>
+</g>
+<!-- PerpXchange._calculateUserPnl&#45;&gt;PerpXchange.getAverageOpenPrice -->
+<g id="edge90" class="edge" data-name="PerpXchange._calculateUserPnl-&gt;PerpXchange.getAverageOpenPrice">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M843.91,-1430.02C868.94,-1440.37 900,-1455.32 924.42,-1473.86 943.73,-1488.52 939.6,-1502.42 960.42,-1514.86 968.34,-1519.59 977.02,-1523.5 985.96,-1526.72" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="984.8,-1530.02 995.39,-1529.77 986.95,-1523.36 984.8,-1530.02" style=""/>
+</g>
+<!-- PerpXchange._calculateUserPnl&#45;&gt;PerpXchange.PerpX__NoPositionChosen -->
+<g id="edge91" class="edge" data-name="PerpXchange._calculateUserPnl-&gt;PerpXchange.PerpX__NoPositionChosen">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M853.78,-1428.3C896.28,-1439.63 955.89,-1455.52 1002.85,-1468.03" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1001.94,-1471.41 1012.5,-1470.61 1003.74,-1464.65 1001.94,-1471.41" style=""/>
+</g>
+<!-- PerpXchange.maxWithdraw -->
+<g id="node32" class="node" pointer-events="visible" data-name="PerpXchange.maxWithdraw">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="505.05" cy="-1014.86" rx="66.05" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1010.66" font-family="Times,serif" font-size="14.00" style="">maxWithdraw</text>
+</g>
+<!-- PerpXchange.maxWithdraw&#45;&gt;PerpXchange._updatedLiquidity -->
+<g id="edge94" class="edge" data-name="PerpXchange.maxWithdraw-&gt;PerpXchange._updatedLiquidity">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M572.57,-1014.86C610.87,-1014.86 659.66,-1014.86 702.02,-1014.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="701.91,-1018.36 711.91,-1014.86 701.91,-1011.36 701.91,-1018.36" style=""/>
+</g>
+<!-- PerpXchange.balanceOf -->
+<g id="node58" class="node" pointer-events="visible" data-name="PerpXchange.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-960.86" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-956.66" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- PerpXchange.maxWithdraw&#45;&gt;PerpXchange.balanceOf -->
+<g id="edge93" class="edge" data-name="PerpXchange.maxWithdraw-&gt;PerpXchange.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M561.91,-1004.51C612.67,-995.11 687.29,-981.29 738.9,-971.73" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="739.33,-975.21 748.53,-969.94 738.06,-968.32 739.33,-975.21" style=""/>
+</g>
+<!-- ReentrancyGuard._convertToAssets -->
+<g id="node65" class="node" pointer-events="visible" data-name="ReentrancyGuard._convertToAssets">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-357.86" rx="80.53" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-353.66" font-family="Times,serif" font-size="14.00" style="">_convertToAssets</text>
+</g>
+<!-- PerpXchange.maxWithdraw&#45;&gt;ReentrancyGuard._convertToAssets -->
+<g id="edge92" class="edge" data-name="PerpXchange.maxWithdraw-&gt;ReentrancyGuard._convertToAssets">
+
+<path fill="none" stroke="white" stroke-width="2" d="M572.19,-1016.94C595.96,-1014.08 620.82,-1006.23 636.77,-987.86 720.69,-891.17 599.51,-517.86 672.77,-412.86 685.11,-395.16 704.48,-383.1 724.31,-374.89" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="725.35,-378.24 733.48,-371.45 722.89,-371.69 725.35,-378.24" style=""/>
+</g>
+<!-- PerpXchange.maxRedeem -->
+<g id="node33" class="node" pointer-events="visible" data-name="PerpXchange.maxRedeem">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="505.05" cy="-960.86" rx="59.11" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-956.66" font-family="Times,serif" font-size="14.00" style="">maxRedeem</text>
+</g>
+<!-- PerpXchange.maxRedeem&#45;&gt;PerpXchange._updatedLiquidity -->
+<g id="edge97" class="edge" data-name="PerpXchange.maxRedeem-&gt;PerpXchange._updatedLiquidity">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M557.5,-970.39C602.56,-978.73 668.69,-990.98 720.14,-1000.51" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="719.44,-1003.94 729.91,-1002.32 720.71,-997.06 719.44,-1003.94" style=""/>
+</g>
+<!-- PerpXchange.maxRedeem&#45;&gt;PerpXchange.balanceOf -->
+<g id="edge96" class="edge" data-name="PerpXchange.maxRedeem-&gt;PerpXchange.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M565.4,-960.86C614.3,-960.86 683.52,-960.86 733.65,-960.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="733.57,-964.36 743.57,-960.86 733.57,-957.36 733.57,-964.36" style=""/>
+</g>
+<!-- PerpXchange.maxRedeem&#45;&gt;ReentrancyGuard._convertToAssets -->
+<g id="edge95" class="edge" data-name="PerpXchange.maxRedeem-&gt;ReentrancyGuard._convertToAssets">
+
+<path fill="none" stroke="white" stroke-width="2" d="M565.04,-963.6C590.83,-961.48 619.16,-954.01 636.77,-933.86 713.12,-846.46 606.06,-507.82 672.77,-412.86 685.17,-395.2 704.55,-383.15 724.38,-374.94" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="725.42,-378.29 733.55,-371.5 722.96,-371.74 725.42,-378.29" style=""/>
+</g>
+<!-- ReentrancyGuard._convertToShares -->
+<g id="node66" class="node" pointer-events="visible" data-name="ReentrancyGuard._convertToShares">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="798.59" cy="-303.86" rx="81.09" ry="18" style=""/>
+<text text-anchor="middle" x="798.59" y="-299.66" font-family="Times,serif" font-size="14.00" style="">_convertToShares</text>
+</g>
+<!-- PerpXchange.maxRedeem&#45;&gt;ReentrancyGuard._convertToShares -->
+<g id="edge98" class="edge" data-name="PerpXchange.maxRedeem-&gt;ReentrancyGuard._convertToShares">
+
+<path fill="none" stroke="white" stroke-width="2" d="M563.45,-955.69C589.7,-952.89 618.87,-945.53 636.77,-924.86 724.61,-823.35 585.4,-423.77 672.77,-321.86 682.8,-310.15 696.59,-302.81 711.36,-298.51" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="712.04,-301.95 720.98,-296.27 710.45,-295.13 712.04,-301.95" style=""/>
+</g>
+<!-- PerpXchange.maxRedeem&#45;&gt;ReentrancyGuard._convertToShares -->
+<g id="edge99" class="edge" data-name="PerpXchange.maxRedeem-&gt;ReentrancyGuard._convertToShares">
+
+<path fill="none" stroke="white" stroke-width="2" d="M554.58,-972.04C582.88,-972.39 616.82,-965.9 636.77,-942.86 724.61,-841.35 585.4,-441.77 672.77,-339.86 683.07,-327.84 697.34,-320.42 712.56,-315.78" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="713.16,-319.24 721.98,-313.37 711.42,-312.46 713.16,-319.24" style=""/>
+</g>
+<!-- PerpXchange.totalAssets&#45;&gt;SignedMath.abs -->
+<g id="edge100" class="edge" data-name="PerpXchange.totalAssets-&gt;SignedMath.abs">
+
+<path fill="none" stroke="white" stroke-width="2" d="M1132.8,-1214.97C1155.74,-1212.45 1180.72,-1205.13 1196.03,-1186.86 1274.61,-1093.04 1154.21,-737.37 1224.03,-636.86 1244.09,-607.98 1282.69,-594.15 1312.18,-587.6" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="1312.48,-591.11 1321.61,-585.73 1311.12,-584.24 1312.48,-591.11" style=""/>
+</g>
+<!-- PerpXchange.getLeverage -->
+<g id="node35" class="node" pointer-events="visible" data-name="PerpXchange.getLeverage">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-1692.86" rx="58.5" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-1688.66" font-family="Times,serif" font-size="14.00" style="">getLeverage</text>
+</g>
+<!-- PerpXchange.getLeverage&#45;&gt;PerpXchange._calculateUserLeverage -->
+<g id="edge101" class="edge" data-name="PerpXchange.getLeverage-&gt;PerpXchange._calculateUserLeverage">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.15,-1699.35C268.28,-1700.11 311.74,-1694.27 337.33,-1665.86 422.26,-1571.55 290.11,-1191.69 373.33,-1095.86 378.93,-1089.41 385.62,-1084.26 392.98,-1080.16" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="394.29,-1083.42 401.87,-1076.01 391.33,-1077.07 394.29,-1083.42" style=""/>
+</g>
+<!-- PerpXchange.getBorrowingRate -->
+<g id="node36" class="node" pointer-events="visible" data-name="PerpXchange.getBorrowingRate">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="176.66" cy="-882.86" rx="82.25" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-878.66" font-family="Times,serif" font-size="14.00" style="">getBorrowingRate</text>
+</g>
+<!-- PerpXchange.getBorrowingFees -->
+<g id="node37" class="node" pointer-events="visible" data-name="PerpXchange.getBorrowingFees">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="505.05" cy="-1686.86" rx="82.26" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1682.66" font-family="Times,serif" font-size="14.00" style="">getBorrowingFees</text>
+</g>
+<!-- PerpXchange.getBorrowingFees&#45;&gt;PerpXchange._borrowingFees -->
+<g id="edge102" class="edge" data-name="PerpXchange.getBorrowingFees-&gt;PerpXchange._borrowingFees">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M588.42,-1686.86C626.7,-1686.86 672.21,-1686.86 711,-1686.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="710.85,-1690.36 720.85,-1686.86 710.85,-1683.36 710.85,-1690.36" style=""/>
+</g>
+<!-- PerpXchange.getUserPnl -->
+<g id="node38" class="node" pointer-events="visible" data-name="PerpXchange.getUserPnl">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="505.05" cy="-1404.86" rx="53.9" ry="18" style=""/>
+<text text-anchor="middle" x="505.05" y="-1400.66" font-family="Times,serif" font-size="14.00" style="">getUserPnl</text>
+</g>
+<!-- PerpXchange.getUserPnl&#45;&gt;PerpXchange._calculateUserPnl -->
+<g id="edge103" class="edge" data-name="PerpXchange.getUserPnl-&gt;PerpXchange._calculateUserPnl">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M560.2,-1406.53C600.47,-1407.77 656.44,-1409.5 703.92,-1410.97" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="703.61,-1414.46 713.72,-1411.27 703.83,-1407.46 703.61,-1414.46" style=""/>
+</g>
+<!-- PerpXchange.setMaxLeverage -->
+<g id="node39" class="node" pointer-events="visible" data-name="PerpXchange.setMaxLeverage">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-828.86" rx="75.26" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-824.66" font-family="Times,serif" font-size="14.00" style="">setMaxLeverage</text>
+</g>
+<!-- PerpXchange.setBorrowingRate -->
+<g id="node40" class="node" pointer-events="visible" data-name="PerpXchange.setBorrowingRate">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-774.86" rx="81.11" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-770.66" font-family="Times,serif" font-size="14.00" style="">setBorrowingRate</text>
+</g>
+<!-- PerpXchange.setMaxUtilizationPercentage -->
+<g id="node41" class="node" pointer-events="visible" data-name="PerpXchange.setMaxUtilizationPercentage">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-720.86" rx="123.25" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-716.66" font-family="Times,serif" font-size="14.00" style="">setMaxUtilizationPercentage</text>
+</g>
+<!-- PerpXchange.setLiquidationDenominator -->
+<g id="node42" class="node" pointer-events="visible" data-name="PerpXchange.setLiquidationDenominator">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="176.66" cy="-666.86" rx="117.55" ry="18" style=""/>
+<text text-anchor="middle" x="176.66" y="-662.66" font-family="Times,serif" font-size="14.00" style="">setLiquidationDenominator</text>
+</g>
+<!-- key -->
+<g id="node72" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="241.66,-2117.86 111.66,-2117.86 111.66,-2029.86 241.66,-2029.86 241.66,-2117.86" style=""/>
+<text text-anchor="start" x="161.3" y="-2099.26" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="157.41" y="-2079.26" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="134.87" y="-2059.26" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="121.26" y="-2039.26" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node73" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="532.05,-2117.86 478.05,-2117.86 478.05,-2029.86 532.05,-2029.86 532.05,-2117.86" style=""/>
+<text text-anchor="start" x="495.05" y="-2099.26" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="495.05" y="-2079.26" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="493.05,-2053.86 493.05,-2073.86 518.05,-2073.86 518.05,-2053.86 493.05,-2053.86" style=""/>
+<text text-anchor="start" x="495.05" y="-2059.26" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="495.05,-2035.86 495.05,-2051.86 516.05,-2051.86 516.05,-2035.86 495.05,-2035.86" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge104" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M234.66,-2103.86C344.59,-2103.86 375.29,-2103.86 479.02,-2103.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="479.02,-2107.36 489.02,-2103.86 479.02,-2100.36 479.02,-2107.36" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge105" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M234.66,-2083.86C344.59,-2083.86 375.29,-2083.86 479.02,-2083.86" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="479.02,-2087.36 489.02,-2083.86 479.02,-2080.36 479.02,-2087.36" style=""/>
+</g>
+</g>
+</svg>
