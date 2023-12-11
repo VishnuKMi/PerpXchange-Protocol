@@ -124,6 +124,7 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
         s_totalLiquidityDeposited -= assets;
     }
 
+    //@audit  Creating a new position involves temporary computation (hence memory), while closing a position involves modifying existing storage data (hence storage).
     function createPosition(uint256 _size, bool _isLong) external nonReentrant {
         if (_size == 0 || _calculateUserLeverage(_size, msg.sender) > maxLeverage) {
             revert PerpX__InvalidSize();
@@ -149,6 +150,8 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
         userToPositionIds[msg.sender].add(s_nonce);
     }
 
+    //@audit 1. Can this be Reentered ?
+    //@audit 2. When accessing an existing position, you want to work with the actual 'storage' slot where the position data resides. Using storage instead of memory allows the function to read and modify the state of the existing position directly.
     function closePosition(uint256 _positionId) public {
         Position storage position = positions[_positionId];
         if (_positionId == 0) revert PerpX__InvalidPositionId();
@@ -164,7 +167,7 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
             s_totalPnl -= int256(profits); // Why int => uint => int ?
             userToPositionIds[msg.sender].remove(_positionId);
             delete positions[_positionId];
-            uint256 profitRealized = profits + collateralAmount;
+            uint256 profitRealized = collateralAmount + profits;
             i_usdc.safeTransfer(msg.sender, profitRealized);
         }
         if (pnl <= 0) {
@@ -287,6 +290,9 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
 
     /// Internal Functions ///
 
+    /**
+     * @dev     Calculates borrowing fees based on the size of the position, the time it has been open, and a predetermined borrowing rate.
+     */
     function _borrowingFees(uint256 _positionId) internal view returns (uint256) {
         Position storage position = positions[_positionId];
         uint256 sizeInUsdc = position.totalValue;
@@ -298,7 +304,7 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
     }
 
     /**
-     * @dev Compute the liquidity reserve restriction and substract the total pnl of traders from it.
+     * @dev Compute the liquidity reserve restriction and substract the total pnl of traders from it. Ensures that the available liquidity in the protocol is dynamically adjusted based on the total assets, the maximum utilization percentage, and the total profit and loss. This adjustment helps maintain a proper balance between liquidity reserve and potential profits or losses in the perpetual protocol.
      */
     function _updatedLiquidity() internal view returns (uint256 updatedLiquidity) {
         uint256 liquidityReserveRestriction =
@@ -327,6 +333,10 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
         totalOpenInterestValue = (newLongOpenInterestInTokens * _currentPrice) + newShortOpenInterest;
     }
 
+    /**
+     * @dev      Ensures that the open interest values are properly updated based on the position type (long or short) and the specific action being taken.
+     */
+    //@audit Why is long interests stored as tokens(_size) and short interests as values(_size*_price) ?
     function _updateOpenInterests(bool _isLong, uint256 _size, uint256 _price, PositionAction positionAction)
         internal
     {
@@ -362,6 +372,9 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
         return assets.mulDiv(totalSupply() + 10 ** _decimalsOffset(), totalAssets() + 1, rounding);
     }
 
+    /**
+     * @dev     This function checks whether the total open interest in the protocol is within the allowed liquidity utilization. It ensures that the sum of long and short positions does not exceed a certain percentage of the available liquidity.
+     */
     function _maxLiquidityUtilization(uint256 assets) internal view {
         uint256 currentPrice = getPriceFeed();
         uint256 updatedLiquidity = _updatedLiquidity() - assets;
@@ -438,6 +451,10 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
         }
     }
 
+    /**
+     * @dev     For a long position, a positive price difference (currentPrice > averagePrice) results in a positive P&L, reflecting a profit. The larger the positive difference and the larger the position size, the higher the profit.
+     * For a short position, a positive price difference (averagePrice > currentPrice) results in a negative P&L, reflecting a profit. The larger the positive difference and the larger the position size, the higher the profit.
+     */
     function _calculateUserPnl(uint256 _positionId, bool _isLong) internal view returns (int256 pnl) {
         uint256 currentPrice = getPriceFeed();
         uint256 averagePrice = getAverageOpenPrice(_positionId);
