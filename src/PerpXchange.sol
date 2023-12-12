@@ -385,7 +385,7 @@ contract PerpXchange is ERC4626, IPerpXchange, Ownable, ReentrancyGuard {
 
     /// View / Pure Functions ///
 
-    function userPositionByIndex(address user, uint256 index) public view returns (uint256) {
+    function userPositionIdByIndex(address user, uint256 index) public view returns (uint256) {
         return userToPositionIds[user].at(index);
     }
 
