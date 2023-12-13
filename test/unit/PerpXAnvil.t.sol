@@ -11,18 +11,6 @@ import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import {ERC20Mock} from "@openzeppelin/contracts/mocks/token/ERC20Mock.sol";
 import "@openzeppelin/contracts/utils/math/Math.sol";
 
-// interface IUSDC {
-//     function balanceOf(address account) external view returns (uint256);
-
-//     function mint(address to, uint256 amount) external;
-
-//     function configureMinter(address minter, uint256 minterAllowedAmount) external;
-
-//     function masterMinter() external view returns (address);
-
-//     function approve(address spender, uint256 amount) external returns (bool);
-// }
-
 contract PerpXTestAnvil is Test, IPerpXchange {
     PerpXchange public perpXchange;
     HelperConfig public helperConfig;
@@ -32,7 +20,7 @@ contract PerpXTestAnvil is Test, IPerpXchange {
     address public USER2 = makeAddr("USER2");
     address public LP = makeAddr("LP");
 
-    // USDC contract address on mainnet
+    // USDC contract address from ERC20Mock
     address usdcMock;
     // User mock params
     uint256 SIZE = 1;
