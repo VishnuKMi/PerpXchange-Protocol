@@ -86,7 +86,7 @@ contract PerpXchangeTest is Test, IPerpXchange {
 
     modifier addLiquidity(uint256 amount) {
         vm.startPrank(LP);
-        IERC20(usdc).approve(address(perpXchange), type(uint256).max); //@follow-up do we need separate approval for LP here than the on in 'setUp()' ?
+        IERC20(usdc).approve(address(perpXchange), type(uint256).max); //@follow-up do we need separate approval for LP here than the one in 'setUp()' ?
         perpXchange.deposit(amount, LP);
         vm.stopPrank();
         _;
