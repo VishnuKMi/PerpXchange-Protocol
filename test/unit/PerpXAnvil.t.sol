@@ -11,7 +11,17 @@ import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import {ERC20Mock} from "@openzeppelin/contracts/mocks/token/ERC20Mock.sol";
 import "@openzeppelin/contracts/utils/math/Math.sol";
 
-// interface IUSDC {}
+// interface IUSDC {
+//     function balanceOf(address account) external view returns (uint256);
+
+//     function mint(address to, uint256 amount) external;
+
+//     function configureMinter(address minter, uint256 minterAllowedAmount) external;
+
+//     function masterMinter() external view returns (address);
+
+//     function approve(address spender, uint256 amount) external returns (bool);
+// }
 
 contract PerpXTestAnvil is Test, IPerpXchange {
     PerpXchange public perpXchange;
@@ -68,7 +78,7 @@ contract PerpXTestAnvil is Test, IPerpXchange {
     // forge test --match-test "testUserPnlIncreaseIfBtcPriceIncrease" -vvvv
     function testUserPnlIncreaseIfBtcPriceIncrease() public {
         // setup
-        MockV3Aggregator mockV3Aggregator = new MockV3Aggregator(8, 20000 * 1e18);
+        MockV3Aggregator mockV3Aggregator = new MockV3Aggregator(8, 20000 * 1e8);
         PerpXchange perpXBtcIncrease = new PerpXchange(address(mockV3Aggregator), ERC20Mock(usdcMock));
 
         // Arrange - LP
@@ -91,7 +101,7 @@ contract PerpXTestAnvil is Test, IPerpXchange {
         uint256 currentPrice = perpXBtcIncrease.getPriceFeed(); // 30000 * 1e18
 
         // Get user's pnl
-        int256 userIntPnl = perpXBtcIncrease.getUserPnl(USER);
+        int256 userIntPnl = perpXBtcIncrease.getUserPnl(USER); // @follow-up arithmetic-overflow!
         uint256 userPnl = uint256(userIntPnl);
         uint256 expectedPnl = SIZE * (currentPrice - (20000 * 1e18));
         assertEq(userPnl, expectedPnl);
